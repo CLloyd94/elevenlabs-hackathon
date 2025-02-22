@@ -650,3 +650,975 @@ Turn the heart of your home into an exquisite culinary canvas with our kitchen r
 2025-02-22 19:39:24,484 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
 2025-02-22 19:39:24,549 - httpcore.connection - DEBUG - close.started
 2025-02-22 19:39:24,551 - httpcore.connection - DEBUG - close.complete
+2025-02-22 21:53:27,968 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 21:53:27,969 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 21:53:28,000 - __main__ - INFO - OpenAI API key found
+2025-02-22 21:53:28,016 - __main__ - INFO - Starting Quart application
+2025-02-22 21:53:28,016 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 21:53:28,016 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 21:53:28,016 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 21:53:28,016 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 21:53:28,016 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 21:53:28,037 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 21:53:28,037 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 22:03:26,843 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 65438): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 65438)>
+2025-02-22 22:03:26,845 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 65439): <socket.socket fd=9, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 65439)>
+2025-02-22 22:03:26,859 - __main__ - INFO - Serving index page
+2025-02-22 22:03:38,644 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 22:03:39,277 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 22:03:39,278 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 22:03:39,308 - __main__ - INFO - OpenAI API key found
+2025-02-22 22:03:39,324 - __main__ - INFO - Starting Quart application
+2025-02-22 22:03:39,324 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 22:03:39,324 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 22:03:39,324 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 22:03:39,324 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 22:03:39,324 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 22:03:39,344 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 22:03:39,344 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 22:08:07,465 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 22:08:07,466 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 22:08:07,497 - __main__ - INFO - OpenAI API key found
+2025-02-22 22:08:07,514 - __main__ - INFO - Starting Quart application
+2025-02-22 22:08:07,514 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 22:08:07,514 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 22:08:07,514 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 22:08:07,514 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 22:08:07,514 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 22:08:07,534 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 22:08:07,534 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 22:08:13,211 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 49180): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 49180)>
+2025-02-22 22:08:13,216 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 49181): <socket.socket fd=9, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 49181)>
+2025-02-22 22:08:13,228 - __main__ - INFO - Serving index page
+2025-02-22 22:14:19,916 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 49240): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 49240)>
+2025-02-22 22:14:19,922 - __main__ - INFO - Received script generation request
+2025-02-22 22:14:19,922 - __main__ - DEBUG - Request data: {'prompt': 'Write a script about a beautiful green kitchen\n', 'duration': '30'}
+2025-02-22 22:14:19,922 - __main__ - INFO - Generating scripts for duration: 30s
+2025-02-22 22:14:19,923 - __main__ - INFO - Generating scripts for prompt: Write a script about a beautiful green kitchen
+... (duration: 30s)
+2025-02-22 22:14:19,926 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional script writer specializing in voiceovers and commercials. \n                Create engaging, natural-sounding scripts that match the timing constraints perfectly. \n                Each script should be carefully timed where speaking at a natural pace would match the specified duration.'}, {'role': 'user', 'content': "Write 3 different 30-second script variations based on this prompt: Write a script about a beautiful green kitchen\n\n\n                Requirements:\n                1. Each script must be timed to be spoken in exactly 30 seconds at a natural pace\n                2. Use natural, conversational language\n                3. Make each variation distinct but equally engaging\n                4. Focus on clarity and impact\n                5. Avoid any audio/visual directions - just the spoken words\n                6. Keep the length to no more than 3 sentences.\n                7. Keep sentences short.\n                8. The last sentence should be a call-to-action like 'get your estimate' or 'learn more'.\n\n                Return ONLY the three script variations, separated by ||| (three pipes)."}], 'model': 'gpt-4'}}
+2025-02-22 22:14:20,007 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-02-22 22:14:20,008 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-02-22 22:14:20,070 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x11277e5d0>
+2025-02-22 22:14:20,071 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x11203a3d0> server_hostname='api.openai.com' timeout=5.0
+2025-02-22 22:14:20,118 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x111e772c0>
+2025-02-22 22:14:20,119 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-22 22:14:20,119 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-22 22:14:20,119 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-22 22:14:20,120 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-22 22:14:20,120 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-22 22:14:25,170 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sat, 22 Feb 2025 22:14:25 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-u65kabkbadcebd8ytdwynb4q'), (b'openai-processing-ms', b'4245'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'5000'), (b'x-ratelimit-limit-tokens', b'40000'), (b'x-ratelimit-remaining-requests', b'4999'), (b'x-ratelimit-remaining-tokens', b'39706'), (b'x-ratelimit-reset-requests', b'12ms'), (b'x-ratelimit-reset-tokens', b'441ms'), (b'x-request-id', b'req_6896b3b37fa761bd5a3dcdab52c653f0'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=yZPIdo94HUmXlUKrysHAoe.2qi2VBbqY_73uGgQ.aUU-1740262465-1.0.1.1-VbDqzkB9FKAg2EsJzQGQitYhpneTS3hSYSR.03B0aBFOEXZTw9ENAIOVX3I1tGfzqrWrRJVbTK55JcdVIb2Chw; path=/; expires=Sat, 22-Feb-25 22:44:25 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=3SrrEIDZxyzKTdFcP8KveC1yTeX_QZgmg0jHxx47bFQ-1740262465217-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'916254181a94ccc9-LHR'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-02-22 22:14:25,173 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-22 22:14:25,173 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-22 22:14:25,174 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-22 22:14:25,174 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-22 22:14:25,174 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-22 22:14:25,174 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers([('date', 'Sat, 22 Feb 2025 22:14:25 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-expose-headers', 'X-Request-ID'), ('openai-organization', 'user-u65kabkbadcebd8ytdwynb4q'), ('openai-processing-ms', '4245'), ('openai-version', '2020-10-01'), ('x-ratelimit-limit-requests', '5000'), ('x-ratelimit-limit-tokens', '40000'), ('x-ratelimit-remaining-requests', '4999'), ('x-ratelimit-remaining-tokens', '39706'), ('x-ratelimit-reset-requests', '12ms'), ('x-ratelimit-reset-tokens', '441ms'), ('x-request-id', 'req_6896b3b37fa761bd5a3dcdab52c653f0'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=yZPIdo94HUmXlUKrysHAoe.2qi2VBbqY_73uGgQ.aUU-1740262465-1.0.1.1-VbDqzkB9FKAg2EsJzQGQitYhpneTS3hSYSR.03B0aBFOEXZTw9ENAIOVX3I1tGfzqrWrRJVbTK55JcdVIb2Chw; path=/; expires=Sat, 22-Feb-25 22:44:25 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=3SrrEIDZxyzKTdFcP8KveC1yTeX_QZgmg0jHxx47bFQ-1740262465217-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '916254181a94ccc9-LHR'), ('content-encoding', 'gzip'), ('alt-svc', 'h3=":443"; ma=86400')])
+2025-02-22 22:14:25,174 - openai._base_client - DEBUG - request_id: req_6896b3b37fa761bd5a3dcdab52c653f0
+2025-02-22 22:14:25,184 - __main__ - DEBUG - GPT-4 response: "Picture a kitchen so welcoming, it brightens your day with just a glimpse. A harmony of vibrant green hues and thoughtful, eco-friendly design. Sounds like a dreamscape? Visit our website to make it your reality today!" ||| "Step into serenity with our stunning green kitchen. Embracing nature's palette, its design uniquely marries style and sustainability. Don't just dream about it, visit our site now and start your journey towards your dream kitchen." ||| "Imagine a sanctuary where fresh ideas bloom -- a kitchen drenched in soothing green. Here, eco-friendly meets elegant. Want this blend of beauty and sustainability? Click our website link to learn more!"
+2025-02-22 22:14:25,184 - __main__ - INFO - Generated 3 script variations
+2025-02-22 22:14:25,184 - __main__ - INFO - Scripts generated successfully
+2025-02-22 22:14:38,959 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 49247): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 49247)>
+2025-02-22 22:14:38,964 - __main__ - INFO - Received voiceover generation request
+2025-02-22 22:14:38,964 - __main__ - DEBUG - Request data: {'text': 'Imagine a sanctuary where fresh ideas bloom -- a kitchen drenched in soothing green. Here, eco-friendly meets elegant. Want this blend of beauty and sustainability? Click our website link to learn more!', 'voice': 'wJqPPQ618aTW29mptyoc', 'video_path': 'http://127.0.0.1:5001/917644d9-471c-4a8f-b9bd-831063e27b01', 'duration': 30}
+2025-02-22 22:14:38,964 - __main__ - INFO - Generating voiceover for text: Imagine a sanctuary where fresh ideas bloom -- a kitchen drenched in soothing green. Here, eco-frien...
+2025-02-22 22:14:38,964 - __main__ - INFO - Using voice ID: wJqPPQ618aTW29mptyoc
+2025-02-22 22:14:38,964 - __main__ - DEBUG - Calling ElevenLabs API
+2025-02-22 22:14:38,965 - __main__ - DEBUG - Converting audio generator to bytes
+2025-02-22 22:14:38,966 - httpcore.connection - DEBUG - connect_tcp.started host='api.elevenlabs.io' port=443 local_address=None timeout=60 socket_options=None
+2025-02-22 22:14:39,004 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x11277fa70>
+2025-02-22 22:14:39,004 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x11203a150> server_hostname='api.elevenlabs.io' timeout=60
+2025-02-22 22:14:39,026 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x11277dc10>
+2025-02-22 22:14:39,027 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-22 22:14:39,028 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-22 22:14:39,028 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-22 22:14:39,028 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-22 22:14:39,028 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-22 22:14:43,222 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'date', b'Sat, 22 Feb 2025 22:14:38 GMT'), (b'server', b'uvicorn'), (b'Content-Length', b'164'), (b'content-type', b'application/json'), (b'access-control-allow-origin', b'*'), (b'access-control-allow-headers', b'*'), (b'access-control-allow-methods', b'POST, PATCH, OPTIONS, DELETE, GET, PUT'), (b'access-control-max-age', b'600'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains'), (b'x-trace-id', b'b769bbed069c03eb49b93877517b9fbe'), (b'Via', b'1.1 google'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000')])
+2025-02-22 22:14:43,224 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/wJqPPQ618aTW29mptyoc?output_format=mp3_44100_128 "HTTP/1.1 429 Too Many Requests"
+2025-02-22 22:14:43,224 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-22 22:14:43,224 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-22 22:14:43,225 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-22 22:14:43,225 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-22 22:14:43,225 - __main__ - ERROR - Error generating voiceover and video:
+2025-02-22 22:14:43,228 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/voiceover_test.py", line 564, in generate
+    for chunk in audio:
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/elevenlabs/text_to_speech/client.py", line 201, in convert
+    raise ApiError(status_code=_response.status_code, body=_response_json)
+elevenlabs.core.api_error.ApiError: status_code: 429, body: {'detail': {'status': 'system_busy', 'message': 'We are sorry, the system is experiencing heavy traffic, please try again. Higher subscriptions have higher priority.'}}
+
+2025-02-22 22:14:43,231 - asyncio - WARNING - Executing <Task finished name='Task-31' coro=<ASGIHTTPConnection.handle_request() done, defined at /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/quart/asgi.py:106> result=None created at /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/tasks.py:695> took 4.268 seconds
+2025-02-22 22:18:50,555 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 22:18:51,326 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 22:18:51,327 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 22:18:51,357 - __main__ - INFO - OpenAI API key found
+2025-02-22 22:18:51,373 - __main__ - INFO - Starting Quart application
+2025-02-22 22:18:51,373 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 22:18:51,373 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 22:18:51,373 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 22:18:51,373 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 22:18:51,373 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 22:18:51,393 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 22:18:51,393 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 22:19:07,735 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 22:19:08,319 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 22:19:08,319 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 22:19:08,344 - __main__ - INFO - OpenAI API key found
+2025-02-22 22:19:08,360 - __main__ - INFO - Starting Quart application
+2025-02-22 22:19:08,360 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 22:19:08,360 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 22:19:08,360 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 22:19:08,360 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 22:19:08,361 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 22:19:08,378 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 22:19:08,379 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 22:19:32,623 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 49373): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 49373)>
+2025-02-22 22:19:32,625 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 49374): <socket.socket fd=9, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 49374)>
+2025-02-22 22:19:32,639 - __main__ - INFO - Serving index page
+2025-02-22 22:19:43,484 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 49375): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 49375)>
+2025-02-22 22:19:43,488 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:19:43,491 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:19:43,494 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:19:43,495 - __main__ - INFO - Received video upload request
+2025-02-22 22:19:43,496 - __main__ - ERROR - Error processing video upload:
+2025-02-22 22:19:43,498 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/voiceover_test.py", line 795, in upload_video
+    if 'video' not in (await request.files):
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/quart/wrappers/request.py", line 326, in files
+    await self._load_form_data()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/quart/wrappers/request.py", line 342, in _load_form_data
+    self._form, self._files = await asyncio.wait_for(
+                              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/quart/formparser.py", line 80, in parse
+    return await parse_func(self, body, mimetype, content_length, options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/quart/formparser.py", line 107, in _parse_multipart
+    return await parser.parse(body, boundary, content_length)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/quart/formparser.py", line 201, in parse
+    async for data in body:
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/quart/wrappers/request.py", line 74, in __anext__
+    raise self._must_raise
+werkzeug.exceptions.RequestEntityTooLarge: 413 Request Entity Too Large: The data value transmitted exceeds the capacity limit.
+
+2025-02-22 22:19:59,390 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 49381): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 49381)>
+2025-02-22 22:19:59,400 - __main__ - INFO - Received script generation request
+2025-02-22 22:19:59,401 - __main__ - DEBUG - Request data: {'prompt': 'write a script about a beautiful green kitchen renovation', 'duration': '30'}
+2025-02-22 22:19:59,401 - __main__ - INFO - Generating scripts for duration: 30s
+2025-02-22 22:19:59,401 - __main__ - INFO - Generating scripts for prompt: write a script about a beautiful green kitchen renovation... (duration: 30s)
+2025-02-22 22:19:59,405 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional script writer specializing in voiceovers and commercials. \n                Create engaging, natural-sounding scripts that match the timing constraints perfectly. \n                Each script should be carefully timed where speaking at a natural pace would match the specified duration.'}, {'role': 'user', 'content': "Write 3 different 30-second script variations based on this prompt: write a script about a beautiful green kitchen renovation\n\n                Requirements:\n                1. Each script must be timed to be spoken in exactly 30 seconds at a natural pace\n                2. Use natural, conversational language\n                3. Make each variation distinct but equally engaging\n                4. Focus on clarity and impact\n                5. Avoid any audio/visual directions - just the spoken words\n                6. Keep the length to no more than 3 sentences.\n                7. Keep sentences short.\n                8. The last sentence should be a call-to-action like 'get your estimate' or 'learn more'.\n\n                Return ONLY the three script variations, separated by ||| (three pipes)."}], 'model': 'gpt-4'}}
+2025-02-22 22:19:59,431 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-02-22 22:19:59,431 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-02-22 22:19:59,481 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x11378e330>
+2025-02-22 22:19:59,482 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x1133ca3d0> server_hostname='api.openai.com' timeout=5.0
+2025-02-22 22:19:59,512 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x11332c530>
+2025-02-22 22:19:59,512 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-22 22:19:59,513 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-22 22:19:59,513 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-22 22:19:59,513 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-22 22:19:59,513 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-22 22:20:05,058 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sat, 22 Feb 2025 22:20:05 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-u65kabkbadcebd8ytdwynb4q'), (b'openai-processing-ms', b'5322'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'5000'), (b'x-ratelimit-limit-tokens', b'40000'), (b'x-ratelimit-remaining-requests', b'4999'), (b'x-ratelimit-remaining-tokens', b'39704'), (b'x-ratelimit-reset-requests', b'12ms'), (b'x-ratelimit-reset-tokens', b'444ms'), (b'x-request-id', b'req_13457058a2cc8ae58953945defa013bd'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=9jUy6RWCXMFdSR08hm9Sp3Wr.H5jRO3lYEVmOw1lzUo-1740262805-1.0.1.1-E3hlMp2xbcTyXzk0rbSOCmex274KL2QIKQhx4lbey_2NZla2O0EksvqLdmGlVzs3m0HcV3GnT5tfyNg.xRsQmw; path=/; expires=Sat, 22-Feb-25 22:50:05 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=BVBHPJtt3d7HU5FRpkwdSIKm.snHYfwz3RcaFTcyEp0-1740262805105-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'91625c614b39bda0-LHR'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-02-22 22:20:05,061 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-22 22:20:05,061 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-22 22:20:05,062 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-22 22:20:05,062 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-22 22:20:05,062 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-22 22:20:05,062 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers([('date', 'Sat, 22 Feb 2025 22:20:05 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-expose-headers', 'X-Request-ID'), ('openai-organization', 'user-u65kabkbadcebd8ytdwynb4q'), ('openai-processing-ms', '5322'), ('openai-version', '2020-10-01'), ('x-ratelimit-limit-requests', '5000'), ('x-ratelimit-limit-tokens', '40000'), ('x-ratelimit-remaining-requests', '4999'), ('x-ratelimit-remaining-tokens', '39704'), ('x-ratelimit-reset-requests', '12ms'), ('x-ratelimit-reset-tokens', '444ms'), ('x-request-id', 'req_13457058a2cc8ae58953945defa013bd'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=9jUy6RWCXMFdSR08hm9Sp3Wr.H5jRO3lYEVmOw1lzUo-1740262805-1.0.1.1-E3hlMp2xbcTyXzk0rbSOCmex274KL2QIKQhx4lbey_2NZla2O0EksvqLdmGlVzs3m0HcV3GnT5tfyNg.xRsQmw; path=/; expires=Sat, 22-Feb-25 22:50:05 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=BVBHPJtt3d7HU5FRpkwdSIKm.snHYfwz3RcaFTcyEp0-1740262805105-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '91625c614b39bda0-LHR'), ('content-encoding', 'gzip'), ('alt-svc', 'h3=":443"; ma=86400')])
+2025-02-22 22:20:05,062 - openai._base_client - DEBUG - request_id: req_13457058a2cc8ae58953945defa013bd
+2025-02-22 22:20:05,069 - __main__ - DEBUG - GPT-4 response: 1. "Imagine your dream kitchen, with lush green cabinets and sparkling granite countertops. Our team at Green Haven Renovations transforms tired-looking kitchens into stunning masterpieces. Don't wait any longer, call us today and get your free estimate."
+|||
+2. "Ever thought about waking up to a fresh, green kitchen? At Green Oasis Renovations, we make this possible by giving your kitchen a nature-inspired makeover. Act now, discover the kitchen you deserve, and request your quote!"
+|||
+3. "Ready for a kitchen that's as fresh as a spring morning? Let's turn your kitchen into a vibrant, green haven with our unique renovation services. Be bold, embrace the transformation - reach out now to learn more!"
+2025-02-22 22:20:05,069 - __main__ - INFO - Generated 3 script variations
+2025-02-22 22:20:05,069 - __main__ - INFO - Scripts generated successfully
+2025-02-22 22:21:14,491 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 49393): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 49393)>
+2025-02-22 22:21:14,497 - __main__ - INFO - Received voiceover generation request
+2025-02-22 22:21:14,498 - __main__ - DEBUG - Request data: {'text': '3. "Ready for a kitchen that\'s as fresh as a spring morning? Let\'s turn your kitchen into a vibrant, green haven with our unique renovation services. Be bold, embrace the transformation - reach out now to learn more!"', 'voice': 'wJqPPQ618aTW29mptyoc'}
+2025-02-22 22:21:14,498 - __main__ - WARNING - No video path provided
+2025-02-22 22:22:15,425 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 22:22:15,953 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 22:22:15,954 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 22:22:15,979 - __main__ - INFO - OpenAI API key found
+2025-02-22 22:22:15,995 - __main__ - INFO - Starting Quart application
+2025-02-22 22:22:15,995 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 22:22:15,995 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 22:22:15,995 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 22:22:15,995 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 22:22:15,996 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 22:22:16,014 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 22:22:16,014 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 22:22:17,016 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 22:22:17,513 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 22:22:17,514 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 22:22:17,539 - __main__ - INFO - OpenAI API key found
+2025-02-22 22:22:17,555 - __main__ - INFO - Starting Quart application
+2025-02-22 22:22:17,555 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 22:22:17,555 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 22:22:17,555 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 22:22:17,555 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 22:22:17,556 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 22:22:17,573 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 22:22:17,573 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 22:22:28,467 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 49423): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 49423)>
+2025-02-22 22:22:28,468 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 49424): <socket.socket fd=9, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 49424)>
+2025-02-22 22:22:28,483 - __main__ - INFO - Serving index page
+2025-02-22 22:22:50,495 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 49429): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 49429)>
+2025-02-22 22:22:50,503 - __main__ - INFO - Received script generation request
+2025-02-22 22:22:50,503 - __main__ - DEBUG - Request data: {'prompt': 'A beautiful green kitchen renovation. Get your estimate today', 'duration': '30'}
+2025-02-22 22:22:50,503 - __main__ - INFO - Generating scripts for duration: 30s
+2025-02-22 22:22:50,503 - __main__ - INFO - Generating scripts for prompt: A beautiful green kitchen renovation. Get your estimate today... (duration: 30s)
+2025-02-22 22:22:50,509 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional script writer specializing in voiceovers and commercials. \n                Create engaging, natural-sounding scripts that match the timing constraints perfectly. \n                Each script should be carefully timed where speaking at a natural pace would match the specified duration.'}, {'role': 'user', 'content': "Write 3 different 30-second script variations based on this prompt: A beautiful green kitchen renovation. Get your estimate today\n\n                Requirements:\n                1. Each script must be timed to be spoken in exactly 30 seconds at a natural pace\n                2. Use natural, conversational language\n                3. Make each variation distinct but equally engaging\n                4. Focus on clarity and impact\n                5. Avoid any audio/visual directions - just the spoken words\n                6. Keep the length to no more than 3 sentences.\n                7. Keep sentences short.\n                8. The last sentence should be a call-to-action like 'get your estimate' or 'learn more'.\n\n                Return ONLY the three script variations, separated by ||| (three pipes)."}], 'model': 'gpt-4'}}
+2025-02-22 22:22:50,534 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-02-22 22:22:50,534 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-02-22 22:22:50,554 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x11655fd10>
+2025-02-22 22:22:50,554 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x110dd24d0> server_hostname='api.openai.com' timeout=5.0
+2025-02-22 22:22:50,565 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x11655e990>
+2025-02-22 22:22:50,566 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-22 22:22:50,566 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-22 22:22:50,566 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-22 22:22:50,566 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-22 22:22:50,566 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-22 22:22:55,700 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sat, 22 Feb 2025 22:22:55 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-u65kabkbadcebd8ytdwynb4q'), (b'openai-processing-ms', b'4678'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'5000'), (b'x-ratelimit-limit-tokens', b'40000'), (b'x-ratelimit-remaining-requests', b'4999'), (b'x-ratelimit-remaining-tokens', b'39703'), (b'x-ratelimit-reset-requests', b'12ms'), (b'x-ratelimit-reset-tokens', b'445ms'), (b'x-request-id', b'req_ca7dfc09ea477feabdd0e6778f3e884b'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=QB58tZrPBO3Qj7wQe1dJqpybxikBG8Qq6COzrlj9yT8-1740262975-1.0.1.1-ZeT9gS2jVPZzyxT77OPUkkFF8D90PtgQR9CsajUtlp4ea_ESIbvceRSmlN4N9_._CGvMuYd3SCb5L_9wYWhk3A; path=/; expires=Sat, 22-Feb-25 22:52:55 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=d6fDWu1K9LgKtZiEZa1DaHVsCVm6SJhkhf8Po6UaQEY-1740262975749-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'9162608e68559db6-LHR'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-02-22 22:22:55,702 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-22 22:22:55,703 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-22 22:22:55,709 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-22 22:22:55,710 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-22 22:22:55,710 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-22 22:22:55,712 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers([('date', 'Sat, 22 Feb 2025 22:22:55 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-expose-headers', 'X-Request-ID'), ('openai-organization', 'user-u65kabkbadcebd8ytdwynb4q'), ('openai-processing-ms', '4678'), ('openai-version', '2020-10-01'), ('x-ratelimit-limit-requests', '5000'), ('x-ratelimit-limit-tokens', '40000'), ('x-ratelimit-remaining-requests', '4999'), ('x-ratelimit-remaining-tokens', '39703'), ('x-ratelimit-reset-requests', '12ms'), ('x-ratelimit-reset-tokens', '445ms'), ('x-request-id', 'req_ca7dfc09ea477feabdd0e6778f3e884b'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=QB58tZrPBO3Qj7wQe1dJqpybxikBG8Qq6COzrlj9yT8-1740262975-1.0.1.1-ZeT9gS2jVPZzyxT77OPUkkFF8D90PtgQR9CsajUtlp4ea_ESIbvceRSmlN4N9_._CGvMuYd3SCb5L_9wYWhk3A; path=/; expires=Sat, 22-Feb-25 22:52:55 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=d6fDWu1K9LgKtZiEZa1DaHVsCVm6SJhkhf8Po6UaQEY-1740262975749-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '9162608e68559db6-LHR'), ('content-encoding', 'gzip'), ('alt-svc', 'h3=":443"; ma=86400')])
+2025-02-22 22:22:55,714 - openai._base_client - DEBUG - request_id: req_ca7dfc09ea477feabdd0e6778f3e884b
+2025-02-22 22:22:55,723 - __main__ - DEBUG - GPT-4 response: 1. Picture a kitchen that’s a conversation starter. Vibrant green cabinets, space-maximizing design, and stunning, eco-friendly finishes. Dare to be extraordinary? Get your personalized green kitchen estimate today.
+
+|||
+
+2. What’s cooking in your dream kitchen? Gorgeous green hues, a hint of rustic charm and timeless appeal. Isn't it time your kitchen reflected your style? Visit our website now and get your free renovation estimate. 
+
+|||
+
+3. Say goodbye to tired countertops and outdated cabinets. Say hello to eye-catching green elegance that revitalizes your cooking space. Ready for a kitchen makeover? Secure your renovation estimate today.
+2025-02-22 22:22:55,723 - __main__ - INFO - Generated 3 script variations
+2025-02-22 22:22:55,723 - __main__ - INFO - Scripts generated successfully
+2025-02-22 22:23:19,844 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 49433): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 49433)>
+2025-02-22 22:23:19,849 - __main__ - INFO - Received voiceover generation request
+2025-02-22 22:23:19,849 - __main__ - DEBUG - Request data: {'text': 'Say goodbye to tired countertops and outdated cabinets. Say hello to eye-catching elegance that revitalizes your cooking space. Get your free renovation estimate today.', 'voice': 'wJqPPQ618aTW29mptyoc'}
+2025-02-22 22:23:19,849 - __main__ - INFO - Generating voiceover for text: Say goodbye to tired countertops and outdated cabinets. Say hello to eye-catching elegance that revi...
+2025-02-22 22:23:19,849 - __main__ - INFO - Using voice ID: wJqPPQ618aTW29mptyoc
+2025-02-22 22:23:19,849 - __main__ - DEBUG - Calling ElevenLabs API
+2025-02-22 22:23:19,849 - __main__ - DEBUG - Converting audio generator to bytes
+2025-02-22 22:23:19,851 - httpcore.connection - DEBUG - connect_tcp.started host='api.elevenlabs.io' port=443 local_address=None timeout=60 socket_options=None
+2025-02-22 22:23:19,869 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x116589580>
+2025-02-22 22:23:19,869 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x110dd2250> server_hostname='api.elevenlabs.io' timeout=60
+2025-02-22 22:23:19,879 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x116589220>
+2025-02-22 22:23:19,879 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-22 22:23:19,879 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-22 22:23:19,879 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-22 22:23:19,879 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-22 22:23:19,879 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-22 22:23:23,022 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'date', b'Sat, 22 Feb 2025 22:23:19 GMT'), (b'server', b'uvicorn'), (b'request-id', b'tDqiHei4Y2TmDPNbmwD4'), (b'access-control-expose-headers', b'request-id, history-item-id, character-cost, regeneration-count, generation-info, current-concurrent-requests, maximum-concurrent-requests'), (b'history-item-id', b'yOkCjirCVVGnqOn8gCLb'), (b'current-concurrent-requests', b'1'), (b'maximum-concurrent-requests', b'5'), (b'character-cost', b'168'), (b'tts-latency-ms', b'2634'), (b'Content-Length', b'224444'), (b'content-type', b'audio/mpeg'), (b'access-control-allow-origin', b'*'), (b'access-control-allow-headers', b'*'), (b'access-control-allow-methods', b'POST, PATCH, OPTIONS, DELETE, GET, PUT'), (b'access-control-max-age', b'600'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains'), (b'x-trace-id', b'd08423d698c971d9f13193dd5a83ae6e'), (b'Via', b'1.1 google'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000')])
+2025-02-22 22:23:23,023 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/wJqPPQ618aTW29mptyoc?output_format=mp3_44100_128 "HTTP/1.1 200 OK"
+2025-02-22 22:23:23,024 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-22 22:23:23,096 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-22 22:23:23,097 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-22 22:23:23,097 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-22 22:23:23,097 - __main__ - DEBUG - Generated 224444 bytes of audio data
+2025-02-22 22:23:23,097 - __main__ - DEBUG - Saving audio to /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp/voiceover_1735690037003340218.mp3
+2025-02-22 22:23:23,098 - __main__ - INFO - Voiceover generated successfully
+2025-02-22 22:23:23,101 - asyncio - WARNING - Executing <Task finished name='Task-31' coro=<ASGIHTTPConnection.handle_request() done, defined at /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/quart/asgi.py:106> result=None created at /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/tasks.py:695> took 3.252 seconds
+2025-02-22 22:23:23,107 - __main__ - INFO - Serving audio file: voiceover_1735690037003340218.mp3
+2025-02-22 22:23:23,131 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 49435): <socket.socket fd=17, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 49435)>
+2025-02-22 22:23:57,616 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 49443): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 49443)>
+2025-02-22 22:23:57,622 - __main__ - INFO - Received voiceover generation request
+2025-02-22 22:23:57,622 - __main__ - DEBUG - Request data: {'text': 'Say goodbye to your tired countertops. Say hello to eye-catching elegance that revitalizes your cooking space. Get your free renovation estimate today.', 'voice': 'wJqPPQ618aTW29mptyoc'}
+2025-02-22 22:23:57,622 - __main__ - INFO - Generating voiceover for text: Say goodbye to your tired countertops. Say hello to eye-catching elegance that revitalizes your cook...
+2025-02-22 22:23:57,623 - __main__ - INFO - Using voice ID: wJqPPQ618aTW29mptyoc
+2025-02-22 22:23:57,623 - __main__ - DEBUG - Calling ElevenLabs API
+2025-02-22 22:23:57,623 - __main__ - DEBUG - Converting audio generator to bytes
+2025-02-22 22:23:57,625 - httpcore.connection - DEBUG - close.started
+2025-02-22 22:23:57,627 - httpcore.connection - DEBUG - close.complete
+2025-02-22 22:23:57,627 - httpcore.connection - DEBUG - connect_tcp.started host='api.elevenlabs.io' port=443 local_address=None timeout=60 socket_options=None
+2025-02-22 22:23:57,634 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x116588d40>
+2025-02-22 22:23:57,634 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x110dd2250> server_hostname='api.elevenlabs.io' timeout=60
+2025-02-22 22:23:57,647 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x116589bb0>
+2025-02-22 22:23:57,647 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-22 22:23:57,647 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-22 22:23:57,647 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-22 22:23:57,647 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-22 22:23:57,647 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-22 22:24:00,306 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'date', b'Sat, 22 Feb 2025 22:23:57 GMT'), (b'server', b'uvicorn'), (b'request-id', b'LrPrbhLUoEBecK8HL4DG'), (b'access-control-expose-headers', b'request-id, history-item-id, character-cost, regeneration-count, generation-info, current-concurrent-requests, maximum-concurrent-requests'), (b'history-item-id', b'GdLSgdTzsfilSUucQ092'), (b'current-concurrent-requests', b'1'), (b'maximum-concurrent-requests', b'5'), (b'character-cost', b'151'), (b'tts-latency-ms', b'2205'), (b'Content-Length', b'198948'), (b'content-type', b'audio/mpeg'), (b'access-control-allow-origin', b'*'), (b'access-control-allow-headers', b'*'), (b'access-control-allow-methods', b'POST, PATCH, OPTIONS, DELETE, GET, PUT'), (b'access-control-max-age', b'600'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains'), (b'x-trace-id', b'60b33e4f0584e77b33588fb77f7595a8'), (b'Via', b'1.1 google'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000')])
+2025-02-22 22:24:00,308 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/wJqPPQ618aTW29mptyoc?output_format=mp3_44100_128 "HTTP/1.1 200 OK"
+2025-02-22 22:24:00,308 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-22 22:24:00,386 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-22 22:24:00,386 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-22 22:24:00,387 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-22 22:24:00,387 - __main__ - DEBUG - Generated 198948 bytes of audio data
+2025-02-22 22:24:00,387 - __main__ - DEBUG - Saving audio to /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp/voiceover_5654593571951400601.mp3
+2025-02-22 22:24:00,388 - __main__ - INFO - Voiceover generated successfully
+2025-02-22 22:24:00,390 - asyncio - WARNING - Executing <Task finished name='Task-51' coro=<ASGIHTTPConnection.handle_request() done, defined at /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/quart/asgi.py:106> result=None created at /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/tasks.py:695> took 2.768 seconds
+2025-02-22 22:24:00,408 - __main__ - INFO - Serving audio file: voiceover_5654593571951400601.mp3
+2025-02-22 22:25:40,170 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 49463): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 49463)>
+2025-02-22 22:25:40,175 - __main__ - INFO - Received voiceover generation request
+2025-02-22 22:25:40,176 - __main__ - DEBUG - Request data: {'text': 'Say goodbye to your tired countertops. Say hello to eye-catching elegance. Get your free renovation estimate today.', 'voice': 'wJqPPQ618aTW29mptyoc'}
+2025-02-22 22:25:40,176 - __main__ - INFO - Generating voiceover for text: Say goodbye to your tired countertops. Say hello to eye-catching elegance. Get your free renovation ...
+2025-02-22 22:25:40,176 - __main__ - INFO - Using voice ID: wJqPPQ618aTW29mptyoc
+2025-02-22 22:25:40,177 - __main__ - DEBUG - Calling ElevenLabs API
+2025-02-22 22:25:40,178 - __main__ - DEBUG - Converting audio generator to bytes
+2025-02-22 22:25:40,179 - httpcore.connection - DEBUG - close.started
+2025-02-22 22:25:40,179 - httpcore.connection - DEBUG - close.complete
+2025-02-22 22:25:40,179 - httpcore.connection - DEBUG - connect_tcp.started host='api.elevenlabs.io' port=443 local_address=None timeout=60 socket_options=None
+2025-02-22 22:25:40,207 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x1165fc170>
+2025-02-22 22:25:40,207 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x110dd2250> server_hostname='api.elevenlabs.io' timeout=60
+2025-02-22 22:25:40,221 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x11658be30>
+2025-02-22 22:25:40,221 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-22 22:25:40,221 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-22 22:25:40,221 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-22 22:25:40,222 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-22 22:25:40,222 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-22 22:25:42,337 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'date', b'Sat, 22 Feb 2025 22:25:39 GMT'), (b'server', b'uvicorn'), (b'request-id', b'3ofeUJ9YuW0zrBVhInim'), (b'access-control-expose-headers', b'request-id, history-item-id, character-cost, regeneration-count, generation-info, current-concurrent-requests, maximum-concurrent-requests'), (b'history-item-id', b'caFkTA8haerXLQneYw7m'), (b'current-concurrent-requests', b'1'), (b'maximum-concurrent-requests', b'5'), (b'character-cost', b'115'), (b'tts-latency-ms', b'1747'), (b'Content-Length', b'145449'), (b'content-type', b'audio/mpeg'), (b'access-control-allow-origin', b'*'), (b'access-control-allow-headers', b'*'), (b'access-control-allow-methods', b'POST, PATCH, OPTIONS, DELETE, GET, PUT'), (b'access-control-max-age', b'600'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains'), (b'x-trace-id', b'2ce77fcf5958f3eae18bfcaf6abecee8'), (b'Via', b'1.1 google'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000')])
+2025-02-22 22:25:42,338 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/wJqPPQ618aTW29mptyoc?output_format=mp3_44100_128 "HTTP/1.1 200 OK"
+2025-02-22 22:25:42,339 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-22 22:25:42,399 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-22 22:25:42,400 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-22 22:25:42,400 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-22 22:25:42,400 - __main__ - DEBUG - Generated 145449 bytes of audio data
+2025-02-22 22:25:42,400 - __main__ - DEBUG - Saving audio to /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp/voiceover_1248784413594736839.mp3
+2025-02-22 22:25:42,401 - __main__ - INFO - Voiceover generated successfully
+2025-02-22 22:25:42,403 - asyncio - WARNING - Executing <Task finished name='Task-63' coro=<ASGIHTTPConnection.handle_request() done, defined at /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/quart/asgi.py:106> result=None created at /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/tasks.py:695> took 2.228 seconds
+2025-02-22 22:25:42,415 - __main__ - INFO - Serving audio file: voiceover_1248784413594736839.mp3
+2025-02-22 22:25:54,666 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 49471): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 49471)>
+2025-02-22 22:25:54,672 - __main__ - INFO - Received video combination request
+2025-02-22 22:25:54,673 - __main__ - DEBUG - Request data: {'video_path': 'http://127.0.0.1:5001/f321a595-9e26-4c49-9940-7868ea030169', 'audio_url': '/api/audio/voiceover_1248784413594736839.mp3', 'text': 'Say goodbye to your tired countertops. Say hello to eye-catching elegance. Get your free renovation estimate today.', 'duration': 30}
+2025-02-22 22:25:54,673 - __main__ - INFO - Generating subtitles...
+2025-02-22 22:25:54,673 - __main__ - INFO - Generating SRT subtitles for text: Say goodbye to your tired countertops. Say hello to eye-catching elegance. Get your free renovation ...
+2025-02-22 22:25:54,673 - __main__ - DEBUG - Saving subtitles to /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp/subtitles_8919420811423797956.srt
+2025-02-22 22:25:54,674 - __main__ - INFO - Subtitles generated successfully
+2025-02-22 22:25:54,674 - __main__ - INFO - Combining video, audio and subtitles...
+2025-02-22 22:25:54,675 - __main__ - INFO - Combining video, audio and subtitles...
+2025-02-22 22:25:54,676 - asyncio - DEBUG - execute program 'ffmpeg' stdout=<pipe> stderr=<pipe>
+2025-02-22 22:25:54,689 - asyncio - DEBUG - process 'ffmpeg' created: pid 88618
+2025-02-22 22:25:54,692 - asyncio - DEBUG - Read pipe 16 connected: (<_UnixReadPipeTransport fd=16 polling>, <ReadSubprocessPipeProto fd=1 pipe=<_UnixReadPipeTransport fd=16 polling>>)
+2025-02-22 22:25:54,692 - asyncio - DEBUG - Read pipe 18 connected: (<_UnixReadPipeTransport fd=18 polling>, <ReadSubprocessPipeProto fd=2 pipe=<_UnixReadPipeTransport fd=18 polling>>)
+2025-02-22 22:25:54,693 - asyncio - INFO - execute program 'ffmpeg': <_UnixSubprocessTransport pid=88618 running stdout=<_UnixReadPipeTransport fd=16 polling> stderr=<_UnixReadPipeTransport fd=18 polling>>
+2025-02-22 22:25:54,693 - asyncio - DEBUG - <Process 88618> communicate: read stdout
+2025-02-22 22:25:54,694 - asyncio - DEBUG - <Process 88618> communicate: read stderr
+2025-02-22 22:26:05,261 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 49473): <socket.socket fd=17, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 49473)>
+2025-02-22 22:26:05,265 - asyncio - INFO - <_UnixReadPipeTransport fd=18 polling> was closed by peer
+2025-02-22 22:26:05,265 - asyncio - DEBUG - process 88618 exited with returncode 8
+2025-02-22 22:26:05,266 - asyncio - INFO - <_UnixReadPipeTransport fd=16 polling> was closed by peer
+2025-02-22 22:26:05,266 - asyncio - INFO - <_UnixSubprocessTransport pid=88618 running stdout=<_UnixReadPipeTransport closed fd=16 closed> stderr=<_UnixReadPipeTransport closed fd=18 closed>> exited with return code 8
+2025-02-22 22:26:05,266 - asyncio - DEBUG - <Process 88618> communicate: close stderr
+2025-02-22 22:26:05,266 - asyncio - DEBUG - <Process 88618> communicate: close stdout
+2025-02-22 22:26:05,267 - __main__ - ERROR - FFmpeg error: ffmpeg version 7.1 Copyright (c) 2000-2024 the FFmpeg developers
+  built with Apple clang version 16.0.0 (clang-1600.0.26.4)
+  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/7.1_4 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags='-Wl,-ld_classic' --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libharfbuzz --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-audiotoolbox --enable-neon
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.100 / 61. 19.100
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[http @ 0x15b633150] HTTP error 404 
+[in#0 @ 0x15b632b70] Error opening input: Server returned 404 Not Found
+Error opening input file http://127.0.0.1:5001/f321a595-9e26-4c49-9940-7868ea030169.
+Error opening input files: Server returned 404 Not Found
+
+2025-02-22 22:26:05,267 - __main__ - ERROR - Error combining video, audio and subtitles: FFmpeg error: ffmpeg version 7.1 Copyright (c) 2000-2024 the FFmpeg developers
+  built with Apple clang version 16.0.0 (clang-1600.0.26.4)
+  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/7.1_4 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags='-Wl,-ld_classic' --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libharfbuzz --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-audiotoolbox --enable-neon
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.100 / 61. 19.100
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[http @ 0x15b633150] HTTP error 404 
+[in#0 @ 0x15b632b70] Error opening input: Server returned 404 Not Found
+Error opening input file http://127.0.0.1:5001/f321a595-9e26-4c49-9940-7868ea030169.
+Error opening input files: Server returned 404 Not Found
+
+2025-02-22 22:26:05,267 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/voiceover_test.py", line 962, in combine_video_audio_subtitles
+    raise Exception(f"FFmpeg error: {stderr.decode()}")
+Exception: FFmpeg error: ffmpeg version 7.1 Copyright (c) 2000-2024 the FFmpeg developers
+  built with Apple clang version 16.0.0 (clang-1600.0.26.4)
+  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/7.1_4 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags='-Wl,-ld_classic' --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libharfbuzz --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-audiotoolbox --enable-neon
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.100 / 61. 19.100
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[http @ 0x15b633150] HTTP error 404 
+[in#0 @ 0x15b632b70] Error opening input: Server returned 404 Not Found
+Error opening input file http://127.0.0.1:5001/f321a595-9e26-4c49-9940-7868ea030169.
+Error opening input files: Server returned 404 Not Found
+
+
+2025-02-22 22:26:05,267 - __main__ - ERROR - Error combining video:
+2025-02-22 22:26:05,268 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/voiceover_test.py", line 1013, in combine
+    final_video_path = await combine_video_audio_subtitles(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/voiceover_test.py", line 962, in combine_video_audio_subtitles
+    raise Exception(f"FFmpeg error: {stderr.decode()}")
+Exception: FFmpeg error: ffmpeg version 7.1 Copyright (c) 2000-2024 the FFmpeg developers
+  built with Apple clang version 16.0.0 (clang-1600.0.26.4)
+  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/7.1_4 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags='-Wl,-ld_classic' --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libharfbuzz --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-audiotoolbox --enable-neon
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.100 / 61. 19.100
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[http @ 0x15b633150] HTTP error 404 
+[in#0 @ 0x15b632b70] Error opening input: Server returned 404 Not Found
+Error opening input file http://127.0.0.1:5001/f321a595-9e26-4c49-9940-7868ea030169.
+Error opening input files: Server returned 404 Not Found
+
+
+2025-02-22 22:29:28,270 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 22:29:28,804 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 22:29:28,805 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 22:29:28,830 - __main__ - INFO - OpenAI API key found
+2025-02-22 22:29:28,847 - __main__ - INFO - Starting Quart application
+2025-02-22 22:29:28,847 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 22:29:28,847 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 22:29:28,847 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 22:29:28,847 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 22:29:28,847 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 22:29:28,865 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 22:29:28,865 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 22:29:30,937 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 22:29:31,434 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 22:29:31,435 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 22:29:31,459 - __main__ - INFO - OpenAI API key found
+2025-02-22 22:29:31,476 - __main__ - INFO - Starting Quart application
+2025-02-22 22:29:31,476 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 22:29:31,476 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 22:29:31,476 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 22:29:31,476 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 22:29:31,476 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 22:29:31,494 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 22:29:31,494 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 22:29:45,675 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 22:29:46,251 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 22:29:46,252 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 22:29:46,278 - __main__ - INFO - OpenAI API key found
+2025-02-22 22:29:46,296 - __main__ - INFO - Starting Quart application
+2025-02-22 22:29:46,296 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 22:29:46,296 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 22:29:46,296 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 22:29:46,296 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 22:29:46,297 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 22:29:46,325 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 22:29:46,325 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 22:29:47,328 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 22:29:47,845 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 22:29:47,846 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 22:29:47,871 - __main__ - INFO - OpenAI API key found
+2025-02-22 22:29:47,887 - __main__ - INFO - Starting Quart application
+2025-02-22 22:29:47,887 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 22:29:47,887 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 22:29:47,887 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 22:29:47,888 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 22:29:47,888 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 22:29:47,906 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 22:29:47,906 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 22:30:01,050 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 49586): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 49586)>
+2025-02-22 22:30:01,052 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 49587): <socket.socket fd=9, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 49587)>
+2025-02-22 22:30:01,060 - __main__ - INFO - Serving index page
+2025-02-22 22:30:37,906 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 49589): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 49589)>
+2025-02-22 22:30:37,913 - __main__ - INFO - Received script generation request
+2025-02-22 22:30:37,914 - __main__ - DEBUG - Request data: {'prompt': 'Beautiful kitchen renovation with dark green features and white countertops with a gold accent.', 'duration': '30'}
+2025-02-22 22:30:37,914 - __main__ - INFO - Generating scripts for duration: 30s
+2025-02-22 22:30:37,914 - __main__ - INFO - Generating scripts for prompt: Beautiful kitchen renovation with dark green features and white countertops with a gold accent.... (duration: 30s)
+2025-02-22 22:30:37,919 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional script writer specializing in voiceovers and commercials. \n                Create engaging, natural-sounding scripts that match the timing constraints perfectly. \n                Each script should be carefully timed where speaking at a natural pace would match the specified duration.'}, {'role': 'user', 'content': "Write 3 different 30-second script variations based on this prompt: Beautiful kitchen renovation with dark green features and white countertops with a gold accent.\n\n                Requirements:\n                1. Each script must be timed to be spoken in exactly 30 seconds at a natural pace\n                2. Use natural, conversational language\n                3. Make each variation distinct but equally engaging\n                4. Focus on clarity and impact\n                5. Avoid any audio/visual directions - just the spoken words\n                6. Keep the length to no more than 3 sentences.\n                7. Keep sentences short.\n                8. The last sentence should be a call-to-action like 'get your estimate' or 'learn more'.\n\n                Return ONLY the three script variations, separated by ||| (three pipes)."}], 'model': 'gpt-4'}}
+2025-02-22 22:30:37,942 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-02-22 22:30:37,943 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-02-22 22:30:37,963 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x10c46b590>
+2025-02-22 22:30:37,963 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x10c0d24d0> server_hostname='api.openai.com' timeout=5.0
+2025-02-22 22:30:37,974 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x10c46b470>
+2025-02-22 22:30:37,974 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-22 22:30:37,975 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-22 22:30:37,975 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-22 22:30:37,975 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-22 22:30:37,975 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-22 22:30:45,099 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sat, 22 Feb 2025 22:30:45 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-u65kabkbadcebd8ytdwynb4q'), (b'openai-processing-ms', b'6838'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'5000'), (b'x-ratelimit-limit-tokens', b'40000'), (b'x-ratelimit-remaining-requests', b'4999'), (b'x-ratelimit-remaining-tokens', b'39694'), (b'x-ratelimit-reset-requests', b'12ms'), (b'x-ratelimit-reset-tokens', b'459ms'), (b'x-request-id', b'req_c5b46dc15f18c6ca1f5c8a8234d306cd'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=8aEgjb53uIbd_NHqFMK__MjHiFM3pPRAF_5TzcVG1hE-1740263445-1.0.1.1-aPqf3gPM62slMo9U5JaWLVXneAXeXz20U9H4LrGJFQk3Ofag92E6J1Go5QSdDGZb68dOrl5Ag2YbvW72ap5g8A; path=/; expires=Sat, 22-Feb-25 23:00:45 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=G9yJAMVTb3GI3toNH0fW.h7_LUzKxZHOsx1EBhDJteg-1740263445151-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'91626bf7bb60652a-LHR'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-02-22 22:30:45,102 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-22 22:30:45,103 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-22 22:30:45,104 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-22 22:30:45,104 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-22 22:30:45,104 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-22 22:30:45,104 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers([('date', 'Sat, 22 Feb 2025 22:30:45 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-expose-headers', 'X-Request-ID'), ('openai-organization', 'user-u65kabkbadcebd8ytdwynb4q'), ('openai-processing-ms', '6838'), ('openai-version', '2020-10-01'), ('x-ratelimit-limit-requests', '5000'), ('x-ratelimit-limit-tokens', '40000'), ('x-ratelimit-remaining-requests', '4999'), ('x-ratelimit-remaining-tokens', '39694'), ('x-ratelimit-reset-requests', '12ms'), ('x-ratelimit-reset-tokens', '459ms'), ('x-request-id', 'req_c5b46dc15f18c6ca1f5c8a8234d306cd'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=8aEgjb53uIbd_NHqFMK__MjHiFM3pPRAF_5TzcVG1hE-1740263445-1.0.1.1-aPqf3gPM62slMo9U5JaWLVXneAXeXz20U9H4LrGJFQk3Ofag92E6J1Go5QSdDGZb68dOrl5Ag2YbvW72ap5g8A; path=/; expires=Sat, 22-Feb-25 23:00:45 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=G9yJAMVTb3GI3toNH0fW.h7_LUzKxZHOsx1EBhDJteg-1740263445151-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '91626bf7bb60652a-LHR'), ('content-encoding', 'gzip'), ('alt-svc', 'h3=":443"; ma=86400')])
+2025-02-22 22:30:45,104 - openai._base_client - DEBUG - request_id: req_c5b46dc15f18c6ca1f5c8a8234d306cd
+2025-02-22 22:30:45,114 - __main__ - DEBUG - GPT-4 response: "Ever dreamt of an enchanting kitchen makeover? Step into luxury with our dark green and white renovation sensation. Elegant, bold, and utterly stylish. With its dramatic green hues and terrific white countertops, and just a hint of gold for that grand touch. Make your kitchen your favorite place to be. Get your free estimate today!" |||
+
+"Be the trendsetter with a unique, luxurious kitchen design. We’re talking dark green features, pristine white countertops all complemented by subtle gold accents. It's not just a renovation, it's transforming your kitchen into an artist's canvas. Press pause on the mediocre and hit play on extraordinary. Learn more about our offbeat designs now!" |||
+
+"What if your kitchen was more than just a kitchen? Imagine chic dark green design elements paired with stark white countertops, finished with a dash of gold. This isn't just a renovation, it's an aesthetic revolution right in the heart of your home. Ready for an avant-garde change? Get in touch for your very own kitchen transformation!"
+2025-02-22 22:30:45,114 - __main__ - INFO - Generated 3 script variations
+2025-02-22 22:30:45,114 - __main__ - INFO - Scripts generated successfully
+2025-02-22 22:30:51,428 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 49595): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 49595)>
+2025-02-22 22:30:51,433 - __main__ - INFO - Received script generation request
+2025-02-22 22:30:51,433 - __main__ - DEBUG - Request data: {'prompt': 'Beautiful kitchen renovation with dark green features and white countertops with a gold accent.', 'duration': '10'}
+2025-02-22 22:30:51,434 - __main__ - INFO - Generating scripts for duration: 10s
+2025-02-22 22:30:51,434 - __main__ - INFO - Generating scripts for prompt: Beautiful kitchen renovation with dark green features and white countertops with a gold accent.... (duration: 10s)
+2025-02-22 22:30:51,439 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional script writer specializing in voiceovers and commercials. \n                Create engaging, natural-sounding scripts that match the timing constraints perfectly. \n                Each script should be carefully timed where speaking at a natural pace would match the specified duration.'}, {'role': 'user', 'content': "Write 3 different 10-second script variations based on this prompt: Beautiful kitchen renovation with dark green features and white countertops with a gold accent.\n\n                Requirements:\n                1. Each script must be timed to be spoken in exactly 10 seconds at a natural pace\n                2. Use natural, conversational language\n                3. Make each variation distinct but equally engaging\n                4. Focus on clarity and impact\n                5. Avoid any audio/visual directions - just the spoken words\n                6. Keep the length to no more than 3 sentences.\n                7. Keep sentences short.\n                8. The last sentence should be a call-to-action like 'get your estimate' or 'learn more'.\n\n                Return ONLY the three script variations, separated by ||| (three pipes)."}], 'model': 'gpt-4'}}
+2025-02-22 22:30:51,440 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-02-22 22:30:51,440 - httpcore.connection - DEBUG - close.started
+2025-02-22 22:30:51,441 - httpcore.connection - DEBUG - close.complete
+2025-02-22 22:30:51,441 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-02-22 22:30:51,448 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x10c486240>
+2025-02-22 22:30:51,448 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x10c0d24d0> server_hostname='api.openai.com' timeout=5.0
+2025-02-22 22:30:51,457 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x10c485d00>
+2025-02-22 22:30:51,457 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-22 22:30:51,458 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-22 22:30:51,458 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-22 22:30:51,458 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-22 22:30:51,458 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-22 22:30:54,877 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sat, 22 Feb 2025 22:30:54 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-u65kabkbadcebd8ytdwynb4q'), (b'openai-processing-ms', b'3220'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'5000'), (b'x-ratelimit-limit-tokens', b'40000'), (b'x-ratelimit-remaining-requests', b'4999'), (b'x-ratelimit-remaining-tokens', b'39694'), (b'x-ratelimit-reset-requests', b'12ms'), (b'x-ratelimit-reset-tokens', b'459ms'), (b'x-request-id', b'req_a88a9ec1a45288e3b7f6974bace66d8c'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'91626c4bfc7e652a-LHR'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-02-22 22:30:54,879 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-22 22:30:54,879 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-22 22:30:54,880 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-22 22:30:54,880 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-22 22:30:54,880 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-22 22:30:54,880 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Sat, 22 Feb 2025 22:30:54 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'user-u65kabkbadcebd8ytdwynb4q', 'openai-processing-ms': '3220', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '5000', 'x-ratelimit-limit-tokens': '40000', 'x-ratelimit-remaining-requests': '4999', 'x-ratelimit-remaining-tokens': '39694', 'x-ratelimit-reset-requests': '12ms', 'x-ratelimit-reset-tokens': '459ms', 'x-request-id': 'req_a88a9ec1a45288e3b7f6974bace66d8c', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '91626c4bfc7e652a-LHR', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-02-22 22:30:54,881 - openai._base_client - DEBUG - request_id: req_a88a9ec1a45288e3b7f6974bace66d8c
+2025-02-22 22:30:54,882 - __main__ - DEBUG - GPT-4 response: "Picture a stunning kitchen renovation! Dark green hues meet pristine white countertops accented with gold. Intrigued? Get your estimate today!" ||| "Discover your dream kitchen! Bold, rich green features expertly matched with white and gold detail. Now's the time – learn more!" ||| "Step into luxury with a revitalized kitchen, think deep green tones, white countertops and gold accents. Ready for this change? Request your quote now!"
+
+2025-02-22 22:30:54,882 - __main__ - INFO - Generated 3 script variations
+2025-02-22 22:30:54,882 - __main__ - INFO - Scripts generated successfully
+2025-02-22 22:31:44,618 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 49598): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 49598)>
+2025-02-22 22:31:44,623 - __main__ - INFO - Received voiceover generation request
+2025-02-22 22:31:44,623 - __main__ - DEBUG - Request data: {'text': 'Create your dream kitchen with ElevenLabs Renovation. Get your free estimate today.', 'voice': 'wJqPPQ618aTW29mptyoc'}
+2025-02-22 22:31:44,623 - __main__ - INFO - Generating voiceover for text: Create your dream kitchen with ElevenLabs Renovation. Get your free estimate today....
+2025-02-22 22:31:44,623 - __main__ - INFO - Using voice ID: wJqPPQ618aTW29mptyoc
+2025-02-22 22:31:44,623 - __main__ - DEBUG - Calling ElevenLabs API
+2025-02-22 22:31:44,623 - __main__ - DEBUG - Converting audio generator to bytes
+2025-02-22 22:31:44,625 - httpcore.connection - DEBUG - connect_tcp.started host='api.elevenlabs.io' port=443 local_address=None timeout=60 socket_options=None
+2025-02-22 22:31:44,633 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x10c487530>
+2025-02-22 22:31:44,633 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x10c0d2250> server_hostname='api.elevenlabs.io' timeout=60
+2025-02-22 22:31:44,645 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x10c487170>
+2025-02-22 22:31:44,646 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-22 22:31:44,646 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-22 22:31:44,646 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-22 22:31:44,646 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-22 22:31:44,646 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-22 22:31:46,295 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'date', b'Sat, 22 Feb 2025 22:31:44 GMT'), (b'server', b'uvicorn'), (b'request-id', b'VHrv3oALwQzUequ0uLZo'), (b'access-control-expose-headers', b'request-id, history-item-id, character-cost, regeneration-count, generation-info, current-concurrent-requests, maximum-concurrent-requests'), (b'history-item-id', b'drlGxRWGr9hGTEaajIs0'), (b'current-concurrent-requests', b'1'), (b'maximum-concurrent-requests', b'5'), (b'character-cost', b'83'), (b'tts-latency-ms', b'1337'), (b'Content-Length', b'91115'), (b'content-type', b'audio/mpeg'), (b'access-control-allow-origin', b'*'), (b'access-control-allow-headers', b'*'), (b'access-control-allow-methods', b'POST, PATCH, OPTIONS, DELETE, GET, PUT'), (b'access-control-max-age', b'600'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains'), (b'x-trace-id', b'2a13d90f8c2c3fd10c2074d724aa1e80'), (b'Via', b'1.1 google'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000')])
+2025-02-22 22:31:46,297 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/wJqPPQ618aTW29mptyoc?output_format=mp3_44100_128 "HTTP/1.1 200 OK"
+2025-02-22 22:31:46,297 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-22 22:31:46,326 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-22 22:31:46,327 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-22 22:31:46,327 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-22 22:31:46,327 - __main__ - DEBUG - Generated 91115 bytes of audio data
+2025-02-22 22:31:46,327 - __main__ - DEBUG - Saving audio to /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp/voiceover_5759298267226778461.mp3
+2025-02-22 22:31:46,328 - __main__ - INFO - Voiceover generated successfully
+2025-02-22 22:31:46,330 - asyncio - WARNING - Executing <Task finished name='Task-39' coro=<ASGIHTTPConnection.handle_request() done, defined at /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/quart/asgi.py:106> result=None created at /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/tasks.py:695> took 1.707 seconds
+2025-02-22 22:31:46,338 - __main__ - INFO - Serving audio file: voiceover_5759298267226778461.mp3
+2025-02-22 22:31:46,355 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 49600): <socket.socket fd=18, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 49600)>
+2025-02-22 22:34:50,331 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 22:34:50,890 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 22:34:50,890 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 22:34:50,915 - __main__ - INFO - OpenAI API key found
+2025-02-22 22:34:50,932 - __main__ - INFO - Starting Quart application
+2025-02-22 22:34:50,932 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 22:34:50,932 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 22:34:50,932 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 22:34:50,932 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 22:34:50,932 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 22:34:50,950 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 22:34:50,950 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 22:34:52,970 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 22:34:53,477 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 22:34:53,478 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 22:34:53,503 - __main__ - INFO - OpenAI API key found
+2025-02-22 22:34:53,519 - __main__ - INFO - Starting Quart application
+2025-02-22 22:34:53,519 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 22:34:53,519 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 22:34:53,519 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 22:34:53,519 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 22:34:53,519 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 22:34:53,536 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 22:34:53,537 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 22:35:48,618 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 49661): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 49661)>
+2025-02-22 22:35:48,620 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 49662): <socket.socket fd=9, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 49662)>
+2025-02-22 22:35:48,633 - __main__ - INFO - Serving index page
+2025-02-22 22:36:34,031 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 49848): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 49848)>
+2025-02-22 22:36:34,036 - __main__ - INFO - Received voiceover generation request
+2025-02-22 22:36:34,037 - __main__ - DEBUG - Request data: {'text': 'Create your dream kitchen with ElevenLabs renovation. Get your free estimate today.', 'voice': 'wJqPPQ618aTW29mptyoc'}
+2025-02-22 22:36:34,037 - __main__ - INFO - Generating voiceover for text: Create your dream kitchen with ElevenLabs renovation. Get your free estimate today....
+2025-02-22 22:36:34,037 - __main__ - INFO - Using voice ID: wJqPPQ618aTW29mptyoc
+2025-02-22 22:36:34,037 - __main__ - DEBUG - Calling ElevenLabs API
+2025-02-22 22:36:34,037 - __main__ - DEBUG - Converting audio generator to bytes
+2025-02-22 22:36:34,040 - httpcore.connection - DEBUG - connect_tcp.started host='api.elevenlabs.io' port=443 local_address=None timeout=60 socket_options=None
+2025-02-22 22:36:34,066 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x106c36570>
+2025-02-22 22:36:34,067 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x1069d2350> server_hostname='api.elevenlabs.io' timeout=60
+2025-02-22 22:36:34,079 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x106c35ee0>
+2025-02-22 22:36:34,080 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-22 22:36:34,080 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-22 22:36:34,080 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-22 22:36:34,080 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-22 22:36:34,080 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-22 22:36:35,642 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'date', b'Sat, 22 Feb 2025 22:36:34 GMT'), (b'server', b'uvicorn'), (b'request-id', b'IWmR0bef8SWX46sYP4hK'), (b'access-control-expose-headers', b'request-id, history-item-id, character-cost, regeneration-count, generation-info, current-concurrent-requests, maximum-concurrent-requests'), (b'history-item-id', b'nzvPEypjV1NIeuc7UbzU'), (b'current-concurrent-requests', b'1'), (b'maximum-concurrent-requests', b'5'), (b'character-cost', b'83'), (b'tts-latency-ms', b'1317'), (b'Content-Length', b'91951'), (b'content-type', b'audio/mpeg'), (b'access-control-allow-origin', b'*'), (b'access-control-allow-headers', b'*'), (b'access-control-allow-methods', b'POST, PATCH, OPTIONS, DELETE, GET, PUT'), (b'access-control-max-age', b'600'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains'), (b'x-trace-id', b'8c44d675902afae6837954a1c158c929'), (b'Via', b'1.1 google'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000')])
+2025-02-22 22:36:35,644 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/wJqPPQ618aTW29mptyoc?output_format=mp3_44100_128 "HTTP/1.1 200 OK"
+2025-02-22 22:36:35,644 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-22 22:36:35,694 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-22 22:36:35,694 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-22 22:36:35,695 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-22 22:36:35,695 - __main__ - DEBUG - Generated 91951 bytes of audio data
+2025-02-22 22:36:35,695 - __main__ - DEBUG - Saving audio to /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp/voiceover_7425155311266719616.mp3
+2025-02-22 22:36:35,696 - __main__ - INFO - Voiceover generated successfully
+2025-02-22 22:36:35,699 - asyncio - WARNING - Executing <Task finished name='Task-23' coro=<ASGIHTTPConnection.handle_request() done, defined at /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/quart/asgi.py:106> result=None created at /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/tasks.py:695> took 1.663 seconds
+2025-02-22 22:36:35,712 - __main__ - INFO - Serving audio file: voiceover_7425155311266719616.mp3
+2025-02-22 22:36:35,731 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 49859): <socket.socket fd=17, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 49859)>
+2025-02-22 22:38:04,521 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 22:38:05,201 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 22:38:05,202 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 22:38:05,230 - __main__ - INFO - OpenAI API key found
+2025-02-22 22:38:05,247 - __main__ - INFO - Starting Quart application
+2025-02-22 22:38:05,247 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 22:38:05,247 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 22:38:05,247 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 22:38:05,247 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 22:38:05,247 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 22:38:05,267 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 22:38:05,268 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 22:38:06,270 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 22:38:06,786 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 22:38:06,787 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 22:38:06,812 - __main__ - INFO - OpenAI API key found
+2025-02-22 22:38:06,828 - __main__ - INFO - Starting Quart application
+2025-02-22 22:38:06,828 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 22:38:06,828 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 22:38:06,828 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 22:38:06,828 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 22:38:06,828 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 22:38:06,846 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 22:38:06,846 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 22:39:07,283 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 50560): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 50560)>
+2025-02-22 22:39:07,286 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 50561): <socket.socket fd=9, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 50561)>
+2025-02-22 22:39:07,299 - __main__ - INFO - Serving index page
+2025-02-22 22:39:17,816 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 50606): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 50606)>
+2025-02-22 22:39:17,820 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:39:17,823 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:39:17,825 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:39:17,826 - __main__ - INFO - Received video upload request
+2025-02-22 22:39:17,827 - __main__ - ERROR - Error processing video upload:
+2025-02-22 22:39:17,829 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/voiceover_test.py", line 771, in upload_video
+    if 'video' not in (await request.files):
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/quart/wrappers/request.py", line 326, in files
+    await self._load_form_data()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/quart/wrappers/request.py", line 342, in _load_form_data
+    self._form, self._files = await asyncio.wait_for(
+                              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/quart/formparser.py", line 80, in parse
+    return await parse_func(self, body, mimetype, content_length, options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/quart/formparser.py", line 107, in _parse_multipart
+    return await parser.parse(body, boundary, content_length)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/quart/formparser.py", line 201, in parse
+    async for data in body:
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/quart/wrappers/request.py", line 74, in __anext__
+    raise self._must_raise
+werkzeug.exceptions.RequestEntityTooLarge: 413 Request Entity Too Large: The data value transmitted exceeds the capacity limit.
+
+2025-02-22 22:39:52,049 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 22:39:52,811 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 22:39:52,812 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 22:39:52,842 - __main__ - INFO - OpenAI API key found
+2025-02-22 22:39:52,858 - __main__ - INFO - Starting Quart application
+2025-02-22 22:39:52,858 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 22:39:52,858 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 22:39:52,858 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 22:39:52,858 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 22:39:52,858 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 22:39:52,878 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 22:39:52,878 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 22:39:53,884 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 22:39:54,396 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 22:39:54,397 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 22:39:54,422 - __main__ - INFO - OpenAI API key found
+2025-02-22 22:39:54,438 - __main__ - INFO - Starting Quart application
+2025-02-22 22:39:54,438 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 22:39:54,438 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 22:39:54,438 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 22:39:54,438 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 22:39:54,438 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 22:39:54,456 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 22:39:54,456 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 22:40:11,068 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 50872): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 50872)>
+2025-02-22 22:40:11,070 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 50873): <socket.socket fd=9, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 50873)>
+2025-02-22 22:40:11,078 - __main__ - INFO - Serving index page
+2025-02-22 22:40:16,092 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 50892): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 50892)>
+2025-02-22 22:40:16,096 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,099 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,100 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,101 - __main__ - INFO - Received video upload request
+2025-02-22 22:40:16,103 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,104 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,107 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,108 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,109 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,110 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,111 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,112 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,113 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,114 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,115 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,115 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,116 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,117 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,117 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,118 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,118 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,119 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,120 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,121 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,122 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,123 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,124 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,124 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,126 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,126 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,127 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,128 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,128 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,129 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,129 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,130 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,131 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,132 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,132 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,133 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,134 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,134 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,135 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,135 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,136 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,136 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,137 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,137 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,138 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,138 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,138 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,139 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,140 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,140 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,141 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,141 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,142 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,142 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,143 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,143 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,144 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,144 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,145 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,146 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,146 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,147 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,147 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,148 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,149 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,149 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,150 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,150 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,151 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,151 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,151 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,152 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,152 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,153 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,153 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,154 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,154 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,154 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,155 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,155 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,156 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,156 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,157 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,157 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,158 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,158 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,158 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,159 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,159 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,160 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,160 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,160 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,161 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,162 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,162 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,162 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,163 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,164 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,164 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,165 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,165 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,165 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,166 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,167 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,167 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,168 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,168 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,168 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,169 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,169 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,170 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,170 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,171 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,171 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,172 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,172 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,173 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,173 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,173 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,174 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,174 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,175 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,175 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,175 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,176 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,176 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,177 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,177 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,179 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,179 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,179 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,180 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,180 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,181 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,181 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,181 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,182 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,182 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,183 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,183 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,184 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,184 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,185 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,185 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,185 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,186 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,186 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,186 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,187 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,187 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,188 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,188 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,188 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,189 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,189 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,190 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,190 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,190 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,191 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,191 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,192 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,192 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,192 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,192 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,193 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,193 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,194 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,194 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,195 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,195 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,195 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,196 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=idle write=<idle, bufsize=0>> pauses reading
+2025-02-22 22:40:16,196 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> resumes reading
+2025-02-22 22:40:16,416 - __main__ - INFO - Video saved to /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp/ai-video.mp4
+2025-02-22 22:40:16,422 - __main__ - INFO - Serving video file: ai-video.mp4
+2025-02-22 22:40:16,851 - asyncio - DEBUG - <asyncio.streams.StreamReaderProtocol object at 0x106333440> pauses writing
+2025-02-22 22:40:30,483 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 50956): <socket.socket fd=14, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 50956)>
+2025-02-22 22:40:30,488 - __main__ - INFO - Received voiceover generation request
+2025-02-22 22:40:30,488 - __main__ - DEBUG - Request data: {'text': 'Create your dream kitchen with ElevenLabs renovation. Get your free estimate today.', 'voice': 'wJqPPQ618aTW29mptyoc'}
+2025-02-22 22:40:30,488 - __main__ - INFO - Generating voiceover for text: Create your dream kitchen with ElevenLabs renovation. Get your free estimate today....
+2025-02-22 22:40:30,488 - __main__ - INFO - Using voice ID: wJqPPQ618aTW29mptyoc
+2025-02-22 22:40:30,488 - __main__ - DEBUG - Calling ElevenLabs API
+2025-02-22 22:40:30,488 - __main__ - DEBUG - Converting audio generator to bytes
+2025-02-22 22:40:30,490 - httpcore.connection - DEBUG - connect_tcp.started host='api.elevenlabs.io' port=443 local_address=None timeout=60 socket_options=None
+2025-02-22 22:40:30,498 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x107198680>
+2025-02-22 22:40:30,498 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x1064c6350> server_hostname='api.elevenlabs.io' timeout=60
+2025-02-22 22:40:30,512 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x10636c7a0>
+2025-02-22 22:40:30,512 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-22 22:40:30,512 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-22 22:40:30,512 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-22 22:40:30,512 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-22 22:40:30,512 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-22 22:40:32,092 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'date', b'Sat, 22 Feb 2025 22:40:29 GMT'), (b'server', b'uvicorn'), (b'request-id', b'2B3zYDIsbNRC2SFB9XFu'), (b'access-control-expose-headers', b'request-id, history-item-id, character-cost, regeneration-count, generation-info, current-concurrent-requests, maximum-concurrent-requests'), (b'history-item-id', b'H4SCO8gntbM2jqADNUVi'), (b'current-concurrent-requests', b'1'), (b'maximum-concurrent-requests', b'5'), (b'character-cost', b'83'), (b'tts-latency-ms', b'1342'), (b'Content-Length', b'91951'), (b'content-type', b'audio/mpeg'), (b'access-control-allow-origin', b'*'), (b'access-control-allow-headers', b'*'), (b'access-control-allow-methods', b'POST, PATCH, OPTIONS, DELETE, GET, PUT'), (b'access-control-max-age', b'600'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains'), (b'x-trace-id', b'be26a8742580150646bd133bf81c4aed'), (b'Via', b'1.1 google'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000')])
+2025-02-22 22:40:32,094 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/wJqPPQ618aTW29mptyoc?output_format=mp3_44100_128 "HTTP/1.1 200 OK"
+2025-02-22 22:40:32,094 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-22 22:40:32,125 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-22 22:40:32,125 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-22 22:40:32,125 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-22 22:40:32,126 - __main__ - DEBUG - Generated 91951 bytes of audio data
+2025-02-22 22:40:32,126 - __main__ - DEBUG - Saving audio to /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp/voiceover_5689863120399306359.mp3
+2025-02-22 22:40:32,126 - __main__ - INFO - Voiceover generated successfully
+2025-02-22 22:40:32,129 - asyncio - WARNING - Executing <Task finished name='Task-33' coro=<ASGIHTTPConnection.handle_request() done, defined at /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/quart/asgi.py:106> result=None created at /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/tasks.py:695> took 1.641 seconds
+2025-02-22 22:40:32,137 - __main__ - INFO - Serving audio file: voiceover_5689863120399306359.mp3
+2025-02-22 22:40:32,140 - asyncio - DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>>: Fatal write error on socket transport
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/selector_events.py", line 1102, in _write_sendmsg
+    nbytes = self._sock.sendmsg(self._get_sendmsg_buffer())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+2025-02-22 22:40:32,159 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 50962): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 50962)>
+2025-02-22 22:40:38,286 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 50992): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 50992)>
+2025-02-22 22:40:38,292 - __main__ - INFO - Received video combination request
+2025-02-22 22:40:38,293 - __main__ - DEBUG - Request data: {'video_path': '/Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp/ai-video.mp4', 'audio_url': '/api/audio/voiceover_5689863120399306359.mp3', 'text': 'Create your dream kitchen with ElevenLabs renovation. Get your free estimate today.', 'duration': 30}
+2025-02-22 22:40:38,293 - __main__ - INFO - Generating subtitles...
+2025-02-22 22:40:38,293 - __main__ - INFO - Generating SRT subtitles for text: Create your dream kitchen with ElevenLabs renovation. Get your free estimate today....
+2025-02-22 22:40:38,293 - __main__ - DEBUG - Saving subtitles to /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp/subtitles_3210071512350137050.srt
+2025-02-22 22:40:38,294 - __main__ - INFO - Subtitles generated successfully
+2025-02-22 22:40:38,294 - __main__ - INFO - Combining video, audio and subtitles...
+2025-02-22 22:40:38,294 - __main__ - INFO - Combining video, audio and subtitles...
+2025-02-22 22:40:38,295 - asyncio - DEBUG - execute program 'ffmpeg' stdout=<pipe> stderr=<pipe>
+2025-02-22 22:40:38,306 - asyncio - DEBUG - process 'ffmpeg' created: pid 89019
+2025-02-22 22:40:38,309 - asyncio - DEBUG - Read pipe 9 connected: (<_UnixReadPipeTransport fd=9 polling>, <ReadSubprocessPipeProto fd=1 pipe=<_UnixReadPipeTransport fd=9 polling>>)
+2025-02-22 22:40:38,310 - asyncio - DEBUG - Read pipe 18 connected: (<_UnixReadPipeTransport fd=18 polling>, <ReadSubprocessPipeProto fd=2 pipe=<_UnixReadPipeTransport fd=18 polling>>)
+2025-02-22 22:40:38,311 - asyncio - INFO - execute program 'ffmpeg': <_UnixSubprocessTransport pid=89019 running stdout=<_UnixReadPipeTransport fd=9 polling> stderr=<_UnixReadPipeTransport fd=18 polling>>
+2025-02-22 22:40:38,311 - asyncio - DEBUG - <Process 89019> communicate: read stdout
+2025-02-22 22:40:38,312 - asyncio - DEBUG - <Process 89019> communicate: read stderr
+2025-02-22 22:40:40,491 - asyncio - INFO - <_UnixReadPipeTransport fd=18 polling> was closed by peer
+2025-02-22 22:40:40,491 - asyncio - DEBUG - process 89019 exited with returncode 0
+2025-02-22 22:40:40,492 - asyncio - INFO - <_UnixReadPipeTransport fd=9 polling> was closed by peer
+2025-02-22 22:40:40,492 - asyncio - INFO - <_UnixSubprocessTransport pid=89019 running stdout=<_UnixReadPipeTransport closed fd=9 closed> stderr=<_UnixReadPipeTransport closed fd=18 closed>> exited with return code 0
+2025-02-22 22:40:40,492 - asyncio - DEBUG - <Process 89019> communicate: close stderr
+2025-02-22 22:40:40,492 - asyncio - DEBUG - <Process 89019> communicate: close stdout
+2025-02-22 22:40:40,492 - __main__ - INFO - Successfully combined video, audio and subtitles to: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp/final_ai-video.mp4
+2025-02-22 22:40:40,493 - __main__ - INFO - Process completed successfully
+2025-02-22 22:40:40,497 - __main__ - INFO - Serving video file: final_ai-video.mp4
+2025-02-22 22:40:47,173 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 51017): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 51017)>
+2025-02-22 22:40:47,174 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 51018): <socket.socket fd=9, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 51018)>
+2025-02-22 22:40:58,800 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 22:40:59,313 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 22:40:59,314 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 22:40:59,338 - __main__ - INFO - OpenAI API key found
+2025-02-22 22:40:59,354 - __main__ - INFO - Starting Quart application
+2025-02-22 22:40:59,355 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 22:40:59,355 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 22:40:59,355 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 22:40:59,355 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 22:40:59,355 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 22:40:59,373 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 22:40:59,373 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 22:41:06,506 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
