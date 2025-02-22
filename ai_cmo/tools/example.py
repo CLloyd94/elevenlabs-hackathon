@@ -10,7 +10,7 @@ from telegram_message_sender import send_message
 AD_ACCOUNT_ID = os.getenv("AD_ACCOUNT_ID")
 ACCESS_TOKEN = os.getenv("ACCESS_TOKEN")
 
-# We can set the following
+# CHANGE THIS
 TITLE = "TEST"
 DESCRIPTION = "TEST"
 FILE_NAME="something.mp4"
@@ -44,4 +44,5 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 # CHANGE THIS
 MESSAGE = "Hello, this is a test message!"
 
+# Copy the following
 send_message(BOT_TOKEN, TARGET_CHAT_ID, MESSAGE)
