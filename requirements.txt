@@ -1,4 +1,16 @@
 streamlit
 python-dotenv
 groq
-dotenv
+openai
+elevenlabs
+moviepy
+requests
+fal-client
+numpy
+decorator
+imageio
+imageio-ffmpeg
+proglog
+flask
+quart
+hypercorn
