@@ -6,6 +6,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from dotenv import load_dotenv
 from agents.small_mind import SmallMind
 from agents.Big_Mind import BigMind
+from utils.logger import PromptLogger
 
 # Load environment variables
 load_dotenv()
@@ -14,24 +15,49 @@ load_dotenv()
 small_mind = SmallMind()
 big_mind = BigMind()
 
+# Initialize logger
+current_dir = os.path.dirname(os.path.abspath(__file__))
+logger = PromptLogger(os.path.join(current_dir, 'current_prompt.txt'))
+
 def initialize_session_state():
     """Initialize session state variables."""
     if "messages" not in st.session_state:
         st.session_state.messages = []
     if "conversation_active" not in st.session_state:
         st.session_state.conversation_active = False
+        # Log new conversation start
+        logger.log_interaction(
+            "SYSTEM", 
+            "New conversation started"
+        )
 
 def execute_big_mind_task(action: str, user_message: str):
     """Execute Big Mind task in background"""
     big_mind_response = big_mind.process_request(user_message)
+    # Log Big Mind's response
+    logger.log_interaction(
+        "BIG_MIND",
+        big_mind_response
+    )
     # Here you would handle the actual tool execution
-    # and potentially update status.txt or trigger notifications
     print(f"Big Mind executing task: {action}")  # For debugging
 
 def process_request(user_message: str):
     """Process user request through Small Mind and potentially trigger Big Mind"""
+    # Log user message
+    logger.log_interaction(
+        "USER",
+        user_message
+    )
+    
     # Get Small Mind's response
     small_mind_response = small_mind.process_message(user_message)
+    
+    # Log Small Mind's response
+    logger.log_interaction(
+        "SMALL_MIND",
+        small_mind_response
+    )
     
     # If Big Mind needs to be activated, do it in background
     if small_mind_response["activate_big_mind"]:

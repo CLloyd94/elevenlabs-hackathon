@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-02-22 16:14:53",
+  "origin": "SYSTEM",
+  "content": "New conversation started"
+}
+{
+  "timestamp": "2025-02-22 16:15:08",
+  "origin": "USER",
+  "content": "Hi how are u"
+}
+{
+  "timestamp": "2025-02-22 16:15:08",
+  "origin": "SMALL_MIND",
+  "content": {
+    "activate_big_mind": false,
+    "action": null,
+    "message_to_user": "Hello! I'm doing well. It's great to have you here. Is there anything I can help you with today, or would you like to chat for a bit?"
+  }
+}
+{
+  "timestamp": "2025-02-22 16:15:32",
+  "origin": "USER",
+  "content": "can u pls create an video ad from this image?"
+}
+{
+  "timestamp": "2025-02-22 16:15:32",
+  "origin": "SMALL_MIND",
+  "content": {
+    "activate_big_mind": true,
+    "action": "Create_Ad_from_Image",
+    "message_to_user": "I'll have our creative team work on a video ad from your image. They'll process this request in the background and you'll be notified once it's ready. In the meantime, is there anything else you'd like to discuss about your marketing strategy?"
+  }
+}
+{
+  "timestamp": "2025-02-22 16:15:35",
+  "origin": "BIG_MIND",
+  "content": {
+    "requires_tool": true,
+    "tool_name": "Create_Ad_from_Image",
+    "reason": "User has directly requested to create a video ad from an image. However, I notice that no actual image was provided in the request.",
+    "parameters": {
+      "error": "No image provided",
+      "message": "I'm ready to create a video ad, but I need you to provide the image first. Please share the image you'd like to use for the video ad."
+    }
+  }
+}
