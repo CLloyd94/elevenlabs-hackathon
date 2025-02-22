@@ -1,11 +1,14 @@
 import subprocess
 import sys
+import os
+from dotenv import load_dotenv
 
+load_dotenv()
 
 # 1. Send message to telegram user
-TARGET_CHAT_ID = "{env}"
-TARGET_USER_NAME = "{env}"
-BOT_TOKEN = "{env}"
+TARGET_CHAT_ID = os.getenv("TARGET_CHAT_ID")
+TARGET_USER_NAME = os.getenv("TARGET_USER_NAME")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 MESSAGE = "Hello, this is a test message!"
 
 # telegram_script = f'python3 telegram.py --chat_id {TARGET_CHAT_ID} --username {TARGET_USER_NAME} --bot_token {BOT_TOKEN} --message "{MESSAGE}"'
@@ -20,10 +23,9 @@ telegram_script = [
 # subprocess.run(telegram_script, stdout=sys.stdout, stderr=sys.stderr)
 
 
-
 # 2. Upload video to Meta's Marketing API
-AD_ACCOUNT_ID = "{env}"
-ACCESS_TOKEN = "{env}"
+AD_ACCOUNT_ID = os.getenv("AD_ACCOUNT_ID")
+ACCESS_TOKEN = os.getenv("ACCESS_TOKEN")
 REMOTE_FILE_PATH = "https://v3.fal.media/files/lion/ucDvw52soqabLG6ePoS9r_output.mp4"
 
 # We can set the following
