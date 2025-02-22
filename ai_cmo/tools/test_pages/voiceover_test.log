@@ -1,0 +1,652 @@
+2025-02-22 18:26:47,645 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 18:26:47,646 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 18:26:47,673 - __main__ - INFO - OpenAI API key found
+2025-02-22 18:26:47,674 - __main__ - INFO - Starting Flask application
+2025-02-22 18:26:47,674 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 18:26:47,674 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 18:26:47,674 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 18:26:47,674 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 18:26:47,685 - werkzeug - WARNING -  * Debugger is active!
+2025-02-22 18:26:47,690 - werkzeug - INFO -  * Debugger PIN: 524-160-254
+2025-02-22 18:27:11,978 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 18:27:11,979 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 18:27:12,006 - __main__ - INFO - OpenAI API key found
+2025-02-22 18:27:12,007 - __main__ - INFO - Starting Flask application
+2025-02-22 18:27:12,007 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 18:27:12,007 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 18:27:12,007 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 18:27:12,007 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 18:27:12,028 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-02-22 18:27:12,028 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-22 18:27:12,029 - werkzeug - INFO -  * Restarting with stat
+2025-02-22 18:27:12,421 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 18:27:12,421 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 18:27:12,448 - __main__ - INFO - OpenAI API key found
+2025-02-22 18:27:12,449 - __main__ - INFO - Starting Flask application
+2025-02-22 18:27:12,449 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 18:27:12,449 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 18:27:12,449 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 18:27:12,449 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 18:27:12,459 - werkzeug - WARNING -  * Debugger is active!
+2025-02-22 18:27:12,464 - werkzeug - INFO -  * Debugger PIN: 524-160-254
+2025-02-22 18:27:23,914 - __main__ - INFO - Serving index page
+2025-02-22 18:27:23,929 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 18:27:23] "GET / HTTP/1.1" 200 -
+2025-02-22 18:27:26,489 - __main__ - INFO - Serving index page
+2025-02-22 18:27:26,492 - werkzeug - INFO - 127.0.0.1 - - [22/Feb/2025 18:27:26] "GET / HTTP/1.1" 200 -
+2025-02-22 18:28:43,185 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 18:28:43,186 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 18:28:43,213 - __main__ - INFO - OpenAI API key found
+2025-02-22 18:28:43,214 - __main__ - INFO - Starting Flask application
+2025-02-22 18:28:43,214 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 18:28:43,214 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 18:28:43,214 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 18:28:43,214 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 18:28:43,231 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-02-22 18:28:43,231 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-22 18:28:43,231 - werkzeug - INFO -  * Restarting with stat
+2025-02-22 18:28:43,637 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 18:28:43,638 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 18:28:43,664 - __main__ - INFO - OpenAI API key found
+2025-02-22 18:28:43,665 - __main__ - INFO - Starting Flask application
+2025-02-22 18:28:43,665 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 18:28:43,665 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 18:28:43,665 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 18:28:43,665 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 18:28:43,676 - werkzeug - WARNING -  * Debugger is active!
+2025-02-22 18:28:43,681 - werkzeug - INFO -  * Debugger PIN: 524-160-254
+2025-02-22 18:30:45,581 - werkzeug - INFO -  * Detected change in '/Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/voiceover_test.py', reloading
+2025-02-22 18:30:45,768 - werkzeug - INFO -  * Restarting with stat
+2025-02-22 18:30:46,210 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 18:30:46,211 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 18:30:46,238 - __main__ - INFO - OpenAI API key found
+2025-02-22 18:30:46,239 - __main__ - INFO - Starting Flask application
+2025-02-22 18:30:46,239 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 18:30:46,239 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 18:30:46,239 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 18:30:46,239 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 18:30:46,251 - werkzeug - WARNING -  * Debugger is active!
+2025-02-22 18:30:46,256 - werkzeug - INFO -  * Debugger PIN: 524-160-254
+2025-02-22 18:30:48,274 - werkzeug - INFO -  * Detected change in '/Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/voiceover_test.py', reloading
+2025-02-22 18:30:48,383 - werkzeug - INFO -  * Restarting with stat
+2025-02-22 18:32:15,192 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 18:32:15,193 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 18:32:15,218 - __main__ - INFO - OpenAI API key found
+2025-02-22 18:32:15,219 - __main__ - INFO - Starting Quart application
+2025-02-22 18:32:15,219 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 18:32:15,219 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 18:32:15,219 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 18:32:15,219 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 18:32:15,219 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 18:32:15,239 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 18:32:15,239 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 18:32:21,098 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 60564): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 60564)>
+2025-02-22 18:32:21,101 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 60565): <socket.socket fd=9, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 60565)>
+2025-02-22 18:32:21,110 - __main__ - INFO - Serving index page
+2025-02-22 18:32:53,065 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 18:33:10,392 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 18:33:10,393 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 18:33:10,417 - __main__ - INFO - OpenAI API key found
+2025-02-22 18:33:10,418 - __main__ - INFO - Starting Quart application
+2025-02-22 18:33:10,418 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 18:33:10,418 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 18:33:10,418 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 18:33:10,418 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 18:33:10,418 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 18:33:10,436 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 18:33:10,436 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 18:33:15,199 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 60582): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 60582)>
+2025-02-22 18:33:15,200 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 60583): <socket.socket fd=9, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 60583)>
+2025-02-22 18:33:15,210 - __main__ - INFO - Serving index page
+2025-02-22 18:34:56,640 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 18:34:57,270 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 18:34:57,271 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 18:34:57,301 - __main__ - INFO - OpenAI API key found
+2025-02-22 18:34:57,302 - __main__ - INFO - Starting Quart application
+2025-02-22 18:34:57,302 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 18:34:57,302 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 18:34:57,302 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 18:34:57,302 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 18:34:57,302 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 18:34:57,321 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 18:34:57,321 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 18:35:13,619 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 18:35:15,625 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 18:35:15,626 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 18:35:15,651 - __main__ - INFO - OpenAI API key found
+2025-02-22 18:35:15,667 - __main__ - INFO - Starting Quart application
+2025-02-22 18:35:15,667 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 18:35:15,667 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 18:35:15,667 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 18:35:15,667 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 18:35:15,667 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 18:35:15,685 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 18:35:15,685 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 18:35:23,560 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 60642): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 60642)>
+2025-02-22 18:35:23,561 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 60643): <socket.socket fd=9, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 60643)>
+2025-02-22 18:35:23,571 - __main__ - INFO - Serving index page
+2025-02-22 19:15:46,320 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 19:19:40,574 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:19:40,576 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 19:19:40,610 - __main__ - INFO - OpenAI API key found
+2025-02-22 19:19:40,626 - __main__ - INFO - Starting Quart application
+2025-02-22 19:19:40,626 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 19:19:40,626 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:19:40,626 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 19:19:40,626 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 19:19:40,626 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 19:19:40,646 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 19:19:40,646 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 19:19:45,287 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 61124): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 61124)>
+2025-02-22 19:19:45,289 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 61125): <socket.socket fd=9, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 61125)>
+2025-02-22 19:19:45,302 - __main__ - INFO - Serving index page
+2025-02-22 19:20:33,703 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 19:20:34,328 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:20:34,329 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 19:20:34,358 - __main__ - INFO - OpenAI API key found
+2025-02-22 19:20:34,374 - __main__ - INFO - Starting Quart application
+2025-02-22 19:20:34,374 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 19:20:34,374 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:20:34,374 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 19:20:34,374 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 19:20:34,374 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 19:20:34,394 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 19:20:34,394 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 19:20:45,044 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 61301): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 61301)>
+2025-02-22 19:20:45,046 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 61302): <socket.socket fd=9, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 61302)>
+2025-02-22 19:20:45,058 - __main__ - INFO - Serving index page
+2025-02-22 19:22:22,563 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 19:22:23,155 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:22:23,156 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 19:22:23,186 - __main__ - INFO - OpenAI API key found
+2025-02-22 19:22:23,201 - __main__ - INFO - Starting Quart application
+2025-02-22 19:22:23,201 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 19:22:23,201 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:22:23,201 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 19:22:23,201 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 19:22:23,201 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 19:22:23,221 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 19:22:23,221 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 19:22:28,825 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 61730): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 61730)>
+2025-02-22 19:22:28,826 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 61731): <socket.socket fd=9, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 61731)>
+2025-02-22 19:22:28,836 - __main__ - INFO - Serving index page
+2025-02-22 19:22:48,730 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 19:22:49,236 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:22:49,237 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 19:22:49,260 - __main__ - INFO - OpenAI API key found
+2025-02-22 19:22:49,276 - __main__ - INFO - Starting Quart application
+2025-02-22 19:22:49,276 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 19:22:49,276 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:22:49,276 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 19:22:49,276 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 19:22:49,276 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 19:22:49,293 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 19:22:49,293 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 19:23:21,968 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 19:23:22,460 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:23:22,461 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 19:23:22,485 - __main__ - INFO - OpenAI API key found
+2025-02-22 19:23:22,501 - __main__ - INFO - Starting Quart application
+2025-02-22 19:23:22,501 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 19:23:22,501 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:23:22,501 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 19:23:22,501 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 19:23:22,501 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 19:23:22,519 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 19:23:22,519 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 19:23:28,607 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 19:23:29,099 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:23:29,099 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 19:23:29,123 - __main__ - INFO - OpenAI API key found
+2025-02-22 19:23:29,139 - __main__ - INFO - Starting Quart application
+2025-02-22 19:23:29,139 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 19:23:29,139 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:23:29,139 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 19:23:29,139 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 19:23:29,139 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 19:23:29,156 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 19:23:29,157 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 19:23:46,547 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 19:23:49,388 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:23:49,389 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 19:23:49,414 - __main__ - INFO - OpenAI API key found
+2025-02-22 19:23:49,430 - __main__ - INFO - Starting Quart application
+2025-02-22 19:23:49,430 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 19:23:49,430 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:23:49,430 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 19:23:49,430 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 19:23:49,430 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 19:23:49,448 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 19:23:49,448 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 19:23:54,906 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 62107): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 62107)>
+2025-02-22 19:23:54,907 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 62108): <socket.socket fd=9, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 62108)>
+2025-02-22 19:23:54,914 - __main__ - INFO - Serving index page
+2025-02-22 19:23:57,287 - __main__ - INFO - Received script generation request
+2025-02-22 19:23:57,288 - __main__ - DEBUG - Request data: {'prompt': 'describe a beautiful kitchen renovation', 'duration': '30'}
+2025-02-22 19:23:57,288 - __main__ - INFO - Generating scripts for duration: 30s
+2025-02-22 19:23:57,288 - __main__ - INFO - Generating scripts for prompt: describe a beautiful kitchen renovation... (duration: 30s)
+2025-02-22 19:23:57,296 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional script writer specializing in voiceovers and commercials. \n                Create engaging, natural-sounding scripts that match the timing constraints perfectly. \n                Each script should be carefully timed where speaking at a natural pace would match the specified duration.'}, {'role': 'user', 'content': 'Write 3 different 30-second script variations based on this prompt: describe a beautiful kitchen renovation\n\n                Requirements:\n                1. Each script must be timed to be spoken in exactly 30 seconds at a natural pace\n                2. Use natural, conversational language\n                3. Make each variation distinct but equally engaging\n                4. Focus on clarity and impact\n                5. Avoid any audio/visual directions - just the spoken words\n\n                Return ONLY the three script variations, separated by ||| (three pipes).'}], 'model': 'gpt-4'}}
+2025-02-22 19:23:57,330 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-02-22 19:23:57,330 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-02-22 19:23:57,368 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x106e66450>
+2025-02-22 19:23:57,368 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x1068ba350> server_hostname='api.openai.com' timeout=5.0
+2025-02-22 19:23:57,383 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x106e66090>
+2025-02-22 19:23:57,383 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-22 19:23:57,383 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-22 19:23:57,383 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-22 19:23:57,383 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-22 19:23:57,383 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-22 19:24:11,590 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sat, 22 Feb 2025 19:24:11 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-u65kabkbadcebd8ytdwynb4q'), (b'openai-processing-ms', b'13285'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'5000'), (b'x-ratelimit-limit-tokens', b'40000'), (b'x-ratelimit-remaining-requests', b'4999'), (b'x-ratelimit-remaining-tokens', b'39761'), (b'x-ratelimit-reset-requests', b'12ms'), (b'x-ratelimit-reset-tokens', b'358ms'), (b'x-request-id', b'req_2548ffce7455e687bac55f0f0f5279c0'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=W2PE2.HUgbSqEQOZpjKeNjmpELXObbfajB7iChXeJAc-1740252251-1.0.1.1-qiz5wwjmkJuA8tss2G5KHsfIuiwVZoh8ZdBf.LauwF7iZhx9tp2Qe75OSIx2mp5.Xh5curOMyf3ffiaR9RKEmw; path=/; expires=Sat, 22-Feb-25 19:54:11 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=WVJbWxfb0eW2lU6F1nN5K_8V9NBKeuQ1c0CjytziaJg-1740252251540-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'91615a83bd2f14d6-LHR'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-02-22 19:24:11,592 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-22 19:24:11,592 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-22 19:24:11,593 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-22 19:24:11,593 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-22 19:24:11,593 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-22 19:24:11,593 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers([('date', 'Sat, 22 Feb 2025 19:24:11 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-expose-headers', 'X-Request-ID'), ('openai-organization', 'user-u65kabkbadcebd8ytdwynb4q'), ('openai-processing-ms', '13285'), ('openai-version', '2020-10-01'), ('x-ratelimit-limit-requests', '5000'), ('x-ratelimit-limit-tokens', '40000'), ('x-ratelimit-remaining-requests', '4999'), ('x-ratelimit-remaining-tokens', '39761'), ('x-ratelimit-reset-requests', '12ms'), ('x-ratelimit-reset-tokens', '358ms'), ('x-request-id', 'req_2548ffce7455e687bac55f0f0f5279c0'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=W2PE2.HUgbSqEQOZpjKeNjmpELXObbfajB7iChXeJAc-1740252251-1.0.1.1-qiz5wwjmkJuA8tss2G5KHsfIuiwVZoh8ZdBf.LauwF7iZhx9tp2Qe75OSIx2mp5.Xh5curOMyf3ffiaR9RKEmw; path=/; expires=Sat, 22-Feb-25 19:54:11 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=WVJbWxfb0eW2lU6F1nN5K_8V9NBKeuQ1c0CjytziaJg-1740252251540-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '91615a83bd2f14d6-LHR'), ('content-encoding', 'gzip'), ('alt-svc', 'h3=":443"; ma=86400')])
+2025-02-22 19:24:11,593 - openai._base_client - DEBUG - request_id: req_2548ffce7455e687bac55f0f0f5279c0
+2025-02-22 19:24:11,599 - __main__ - DEBUG - GPT-4 response: 1. Stepping into this newly renovated kitchen is like stepping into your dreams. Glistening marble countertops that seem to stretch forever, under softly glowing pendant lights. Bespoke built-ins boasting plenty of storage, for pots, pans, and pastry cutters. An island so grand, it’s practically it's own continent, perfect for buffet spreads. Natural sunlight cascades through expansive windows, splashing warmth onto antique herringbone wooden floors. And with state-of-the-art appliances, whipping up your favorite dish becomes an easy masterpiece. Welcome to the heart of your home, reimagined. 
+
+|||
+
+2. Imagine your home's heart beating to the rhythm of a kitchen renovation, flawlessly tailored to your story. White quartz countertops sparkling, rubbing shoulders with high-end, stainless steel appliances. Hand-crafted cabinetry flowing seamlessly, merging form and function. A center island inviting connection, laughter, shared meals. Picture underfloor heating tickling your toes on cold mornings, offering comforting warmth against the backdrop of rustic farmhouse-style wood flooring. Every inch is a testament to both beauty and practicality. It's not just a renovation, it's a lifestyle upgrade. 
+
+|||
+
+3. Welcome to the kitchen renovation of your dreams. Imagine running your fingers over the sleek, granite countertops, chilled against your touch. Ambient pendant lights cast a soft, soulful glow, highlighting the deep grain of custom cabinetry. An opulent island stands ready, poised for family gatherings and culinary adventures. Sink your feet into warmed wooden floors, as skylights pour in heaven-sent brightness, highlighting the blend of elegant designs and leading-edge appliances. A symphony of function and aesthetics, where every detail sings in perfect harmony. Your dream home-checked one kitchen at a time.
+2025-02-22 19:24:11,600 - __main__ - INFO - Generated 3 script variations
+2025-02-22 19:24:11,600 - __main__ - INFO - Scripts generated successfully
+2025-02-22 19:26:52,570 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 19:26:53,059 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:26:53,060 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 19:26:53,084 - __main__ - INFO - OpenAI API key found
+2025-02-22 19:26:53,100 - __main__ - INFO - Starting Quart application
+2025-02-22 19:26:53,100 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 19:26:53,100 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:26:53,100 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 19:26:53,100 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 19:26:53,100 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 19:26:53,118 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 19:26:53,118 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 19:28:51,581 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 19:28:52,054 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:28:52,055 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 19:28:52,080 - __main__ - INFO - OpenAI API key found
+2025-02-22 19:28:52,096 - __main__ - INFO - Starting Quart application
+2025-02-22 19:28:52,096 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 19:28:52,096 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:28:52,096 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 19:28:52,096 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 19:28:52,096 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 19:28:52,114 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 19:28:52,114 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 19:28:57,184 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 19:28:57,678 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:28:57,678 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 19:28:57,702 - __main__ - INFO - OpenAI API key found
+2025-02-22 19:28:57,718 - __main__ - INFO - Starting Quart application
+2025-02-22 19:28:57,718 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 19:28:57,718 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:28:57,718 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 19:28:57,718 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 19:28:57,719 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 19:28:57,736 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 19:28:57,736 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 19:29:02,812 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 19:29:03,347 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:29:03,347 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 19:29:03,371 - __main__ - INFO - OpenAI API key found
+2025-02-22 19:29:03,389 - __main__ - INFO - Starting Quart application
+2025-02-22 19:29:03,389 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 19:29:03,389 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:29:03,389 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 19:29:03,389 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 19:29:03,389 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 19:29:03,407 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 19:29:03,407 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 19:29:15,235 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 63447): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 63447)>
+2025-02-22 19:29:15,245 - __main__ - INFO - Received script generation request
+2025-02-22 19:29:15,248 - __main__ - DEBUG - Request data: {'prompt': 'describe a beautiful kitchen renovation', 'duration': '30'}
+2025-02-22 19:29:15,248 - __main__ - INFO - Generating scripts for duration: 30s
+2025-02-22 19:29:15,248 - __main__ - INFO - Generating scripts for prompt: describe a beautiful kitchen renovation... (duration: 30s)
+2025-02-22 19:29:15,253 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional script writer specializing in voiceovers and commercials. \n                Create engaging, natural-sounding scripts that match the timing constraints perfectly. \n                Each script should be carefully timed where speaking at a natural pace would match the specified duration.'}, {'role': 'user', 'content': 'Write 3 different 30-second script variations based on this prompt: describe a beautiful kitchen renovation\n\n                Requirements:\n                1. Each script must be timed to be spoken in exactly 30 seconds at a natural pace\n                2. Use natural, conversational language\n                3. Make each variation distinct but equally engaging\n                4. Focus on clarity and impact\n                5. Avoid any audio/visual directions - just the spoken words\n                6. Keep the length to no more than 3 sentences.\n\n                Return ONLY the three script variations, separated by ||| (three pipes).'}], 'model': 'gpt-4'}}
+2025-02-22 19:29:15,276 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-02-22 19:29:15,276 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-02-22 19:29:15,308 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x10bdf8410>
+2025-02-22 19:29:15,308 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x10c1c6350> server_hostname='api.openai.com' timeout=5.0
+2025-02-22 19:29:15,321 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x10c659d30>
+2025-02-22 19:29:15,321 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-22 19:29:15,322 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-22 19:29:15,322 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-22 19:29:15,322 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-22 19:29:15,322 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-22 19:29:24,729 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sat, 22 Feb 2025 19:29:24 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-u65kabkbadcebd8ytdwynb4q'), (b'openai-processing-ms', b'9103'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'5000'), (b'x-ratelimit-limit-tokens', b'40000'), (b'x-ratelimit-remaining-requests', b'4999'), (b'x-ratelimit-remaining-tokens', b'39745'), (b'x-ratelimit-reset-requests', b'12ms'), (b'x-ratelimit-reset-tokens', b'382ms'), (b'x-request-id', b'req_7194e845bfb593147fb30e257ca75ec9'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=Dj5JXOFyGsJ8jVs_ODEDuCTWjDSzQoWmOwYVWMCZTzM-1740252564-1.0.1.1-pG_36Cd5e1j.cCZJsg75LX9bcSnikvZGxW5yoAJcNan4PU.nzqwfwVvRwiXu_VLMLPHmc06ANDklMnE9DwWMKg; path=/; expires=Sat, 22-Feb-25 19:59:24 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=cNUcf7n4Y6yUd2h3X8OxffF7euCqS46uAGD5COmqiXg-1740252564636-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'91616246ea204141-LHR'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-02-22 19:29:24,732 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-22 19:29:24,732 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-22 19:29:24,732 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-22 19:29:24,733 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-22 19:29:24,733 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-22 19:29:24,733 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers([('date', 'Sat, 22 Feb 2025 19:29:24 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-expose-headers', 'X-Request-ID'), ('openai-organization', 'user-u65kabkbadcebd8ytdwynb4q'), ('openai-processing-ms', '9103'), ('openai-version', '2020-10-01'), ('x-ratelimit-limit-requests', '5000'), ('x-ratelimit-limit-tokens', '40000'), ('x-ratelimit-remaining-requests', '4999'), ('x-ratelimit-remaining-tokens', '39745'), ('x-ratelimit-reset-requests', '12ms'), ('x-ratelimit-reset-tokens', '382ms'), ('x-request-id', 'req_7194e845bfb593147fb30e257ca75ec9'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=Dj5JXOFyGsJ8jVs_ODEDuCTWjDSzQoWmOwYVWMCZTzM-1740252564-1.0.1.1-pG_36Cd5e1j.cCZJsg75LX9bcSnikvZGxW5yoAJcNan4PU.nzqwfwVvRwiXu_VLMLPHmc06ANDklMnE9DwWMKg; path=/; expires=Sat, 22-Feb-25 19:59:24 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=cNUcf7n4Y6yUd2h3X8OxffF7euCqS46uAGD5COmqiXg-1740252564636-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '91616246ea204141-LHR'), ('content-encoding', 'gzip'), ('alt-svc', 'h3=":443"; ma=86400')])
+2025-02-22 19:29:24,733 - openai._base_client - DEBUG - request_id: req_7194e845bfb593147fb30e257ca75ec9
+2025-02-22 19:29:24,739 - __main__ - DEBUG - GPT-4 response: 1. "Imagine stepping into your dream kitchen every morning. Shiny stainless-steel appliances, sleek granite countertops that glisten under soft pendant lights, and the warm hue of custom wooden cabinetry waiting to greet you. A beautiful kitchen is not just a renovation, it's the heart of your home seeking to delight you every single day."
+
+|||
+
+2. "Have a moment to picture life with your recently revamped kitchen. Marvel at the exquisite, timeless marble countertops meeting with high-end, energy-efficient appliances. Feel the difference as smooth, reclaimed oak flooring leads you around, enriching the charm of your kitchen, your home's culinary art studio."
+
+|||
+
+3. "Visualize pushing open the doors to your freshly renovated kitchen. It's a masterpiece featuring sparkling quartz countertops, smart, cutting-edge appliances that gleam with promise, and beautifully crafted cabinets, telling the tale of your impeccable taste. It's more than just a room, it's the soul of your home, waiting to add a pinch of comfort and a dash of joy to your life."
+2025-02-22 19:29:24,740 - __main__ - INFO - Generated 3 script variations
+2025-02-22 19:29:24,740 - __main__ - INFO - Scripts generated successfully
+2025-02-22 19:29:40,035 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 19:29:40,538 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:29:40,539 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 19:29:40,564 - __main__ - INFO - OpenAI API key found
+2025-02-22 19:29:40,580 - __main__ - INFO - Starting Quart application
+2025-02-22 19:29:40,580 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 19:29:40,580 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:29:40,580 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 19:29:40,580 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 19:29:40,580 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 19:29:40,607 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 19:29:40,607 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 19:29:44,660 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 19:29:45,144 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:29:45,145 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 19:29:45,170 - __main__ - INFO - OpenAI API key found
+2025-02-22 19:29:45,224 - __main__ - INFO - Starting Quart application
+2025-02-22 19:29:45,224 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 19:29:45,224 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:29:45,224 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 19:29:45,224 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 19:29:45,224 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 19:29:45,241 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 19:29:45,242 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 19:29:49,055 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 63589): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 63589)>
+2025-02-22 19:29:49,067 - __main__ - INFO - Received script generation request
+2025-02-22 19:29:49,069 - __main__ - DEBUG - Request data: {'prompt': 'describe a beautiful kitchen renovation', 'duration': '30'}
+2025-02-22 19:29:49,069 - __main__ - INFO - Generating scripts for duration: 30s
+2025-02-22 19:29:49,069 - __main__ - INFO - Generating scripts for prompt: describe a beautiful kitchen renovation... (duration: 30s)
+2025-02-22 19:29:49,071 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional script writer specializing in voiceovers and commercials. \n                Create engaging, natural-sounding scripts that match the timing constraints perfectly. \n                Each script should be carefully timed where speaking at a natural pace would match the specified duration.'}, {'role': 'user', 'content': 'Write 3 different 30-second script variations based on this prompt: describe a beautiful kitchen renovation\n\n                Requirements:\n                1. Each script must be timed to be spoken in exactly 30 seconds at a natural pace\n                2. Use natural, conversational language\n                3. Make each variation distinct but equally engaging\n                4. Focus on clarity and impact\n                5. Avoid any audio/visual directions - just the spoken words\n                6. Keep the length to no more than 3 sentences.\n                7. Keep sentences short.\n\n                Return ONLY the three script variations, separated by ||| (three pipes).'}], 'model': 'gpt-4'}}
+2025-02-22 19:29:49,082 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-02-22 19:29:49,083 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-02-22 19:29:49,097 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x11015df10>
+2025-02-22 19:29:49,097 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x1059c6350> server_hostname='api.openai.com' timeout=5.0
+2025-02-22 19:29:49,108 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x11015de20>
+2025-02-22 19:29:49,108 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-22 19:29:49,108 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-22 19:29:49,108 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-22 19:29:49,108 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-22 19:29:49,109 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-22 19:29:56,195 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sat, 22 Feb 2025 19:29:56 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-u65kabkbadcebd8ytdwynb4q'), (b'openai-processing-ms', b'6875'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'5000'), (b'x-ratelimit-limit-tokens', b'40000'), (b'x-ratelimit-remaining-requests', b'4999'), (b'x-ratelimit-remaining-tokens', b'39735'), (b'x-ratelimit-reset-requests', b'12ms'), (b'x-ratelimit-reset-tokens', b'397ms'), (b'x-request-id', b'req_28169ea1f644587af24c2e5a5ce6e0e2'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=Jki1kqclzgSUVWb.0AnN_AwrnefKwmBCcz05KWkUkUo-1740252596-1.0.1.1-NehI.UlBFQ9y9QFNlO_Dx.u8jl1tTwsQvcZyq0Vu.0OL1LL_5y_TSzZ5ogUdXnz6E2onO9lIL8E5HOT1u_XlMw; path=/; expires=Sat, 22-Feb-25 19:59:56 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=v2ZhqcGQKDwMpFmjYeqRFyE13y30jTmD5EIwymUP7rI-1740252596204-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'9161631a0e3494f6-LHR'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-02-22 19:29:56,197 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-22 19:29:56,198 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-22 19:29:56,201 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-22 19:29:56,201 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-22 19:29:56,202 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-22 19:29:56,202 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers([('date', 'Sat, 22 Feb 2025 19:29:56 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-expose-headers', 'X-Request-ID'), ('openai-organization', 'user-u65kabkbadcebd8ytdwynb4q'), ('openai-processing-ms', '6875'), ('openai-version', '2020-10-01'), ('x-ratelimit-limit-requests', '5000'), ('x-ratelimit-limit-tokens', '40000'), ('x-ratelimit-remaining-requests', '4999'), ('x-ratelimit-remaining-tokens', '39735'), ('x-ratelimit-reset-requests', '12ms'), ('x-ratelimit-reset-tokens', '397ms'), ('x-request-id', 'req_28169ea1f644587af24c2e5a5ce6e0e2'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=Jki1kqclzgSUVWb.0AnN_AwrnefKwmBCcz05KWkUkUo-1740252596-1.0.1.1-NehI.UlBFQ9y9QFNlO_Dx.u8jl1tTwsQvcZyq0Vu.0OL1LL_5y_TSzZ5ogUdXnz6E2onO9lIL8E5HOT1u_XlMw; path=/; expires=Sat, 22-Feb-25 19:59:56 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=v2ZhqcGQKDwMpFmjYeqRFyE13y30jTmD5EIwymUP7rI-1740252596204-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '9161631a0e3494f6-LHR'), ('content-encoding', 'gzip'), ('alt-svc', 'h3=":443"; ma=86400')])
+2025-02-22 19:29:56,203 - openai._base_client - DEBUG - request_id: req_28169ea1f644587af24c2e5a5ce6e0e2
+2025-02-22 19:29:56,208 - __main__ - DEBUG - GPT-4 response: 1. "Imagine stepping into a kitchen that takes your breath away! Gleaming marble counters, rich mahogany cabinets, and cutting-edge appliances at your fingertips. A place that feels not just like a kitchen, but the very heart of your home." 
+|||
+2. "There's nothing like a freshly renovated kitchen. Picture this - Pure white quartz countertops, shiny new stainless-steel appliances and thoughtfully designed cabinetry that provides ample storage. It's the perfect blend of style and functionality that leaves you saying 'Wow!'." 
+|||
+3. "Imagine a kitchen that captures the joy of cooking in style. It's all about a granite island surrounded by bespoke hardwood cupboards, all bathed in warm, ambient lighting. Your dream of a picture-perfect kitchen truly comes to life."
+2025-02-22 19:29:56,208 - __main__ - INFO - Generated 3 script variations
+2025-02-22 19:29:56,208 - __main__ - INFO - Scripts generated successfully
+2025-02-22 19:30:26,471 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 63734): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 63734)>
+2025-02-22 19:30:26,476 - __main__ - INFO - Received voiceover generation request
+2025-02-22 19:30:26,478 - __main__ - DEBUG - Request data: {'text': '3. "Imagine a kitchen that captures the joy of cooking in style. It\'s all about a granite island surrounded by bespoke hardwood cupboards, all bathed in warm, ambient lighting. Your dream of a picture-perfect kitchen truly comes to life."', 'voice': 'JBFqnCBsd6RMkjVDRZzb'}
+2025-02-22 19:30:26,478 - __main__ - INFO - Generating voiceover for text: 3. "Imagine a kitchen that captures the joy of cooking in style. It's all about a granite island sur...
+2025-02-22 19:30:26,479 - __main__ - INFO - Using voice ID: JBFqnCBsd6RMkjVDRZzb
+2025-02-22 19:30:26,479 - __main__ - DEBUG - Calling ElevenLabs API
+2025-02-22 19:30:26,479 - __main__ - DEBUG - Converting audio generator to bytes
+2025-02-22 19:30:26,480 - httpcore.connection - DEBUG - connect_tcp.started host='api.elevenlabs.io' port=443 local_address=None timeout=60 socket_options=None
+2025-02-22 19:30:26,500 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x11015ef90>
+2025-02-22 19:30:26,500 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x1059c60d0> server_hostname='api.elevenlabs.io' timeout=60
+2025-02-22 19:30:26,516 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x11015e9c0>
+2025-02-22 19:30:26,516 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-22 19:30:26,517 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-22 19:30:26,517 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-22 19:30:26,517 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-22 19:30:26,517 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-22 19:30:29,642 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'date', b'Sat, 22 Feb 2025 19:30:26 GMT'), (b'server', b'uvicorn'), (b'request-id', b'Qb4kfdQqJUftxCAOPAVS'), (b'access-control-expose-headers', b'request-id, history-item-id, character-cost, regeneration-count, generation-info, current-concurrent-requests, maximum-concurrent-requests'), (b'history-item-id', b'53avDxYbBivk8mlPJX6Y'), (b'current-concurrent-requests', b'1'), (b'maximum-concurrent-requests', b'2'), (b'character-cost', b'238'), (b'tts-latency-ms', b'2680'), (b'Content-Length', b'233221'), (b'content-type', b'audio/mpeg'), (b'access-control-allow-origin', b'*'), (b'access-control-allow-headers', b'*'), (b'access-control-allow-methods', b'POST, PATCH, OPTIONS, DELETE, GET, PUT'), (b'access-control-max-age', b'600'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains'), (b'x-trace-id', b'b3cdef4c1ea0771f4ea41501f0149c28'), (b'Via', b'1.1 google'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000')])
+2025-02-22 19:30:29,643 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/JBFqnCBsd6RMkjVDRZzb?output_format=mp3_44100_128 "HTTP/1.1 200 OK"
+2025-02-22 19:30:29,643 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-22 19:30:29,679 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-22 19:30:29,679 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-22 19:30:29,679 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-22 19:30:29,679 - __main__ - DEBUG - Generated 233221 bytes of audio data
+2025-02-22 19:30:29,680 - __main__ - DEBUG - Saving audio to /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp/voiceover_7162244133276131058.mp3
+2025-02-22 19:30:29,681 - __main__ - INFO - Voiceover generated and saved successfully
+2025-02-22 19:30:29,684 - asyncio - WARNING - Executing <Task finished name='Task-19' coro=<ASGIHTTPConnection.handle_request() done, defined at /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/quart/asgi.py:106> result=None created at /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/tasks.py:695> took 3.208 seconds
+2025-02-22 19:30:29,699 - __main__ - INFO - Serving audio file: voiceover_7162244133276131058.mp3
+2025-02-22 19:30:29,720 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 63736): <socket.socket fd=17, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 63736)>
+2025-02-22 19:31:01,358 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 19:31:01,858 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:31:01,858 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 19:31:01,883 - __main__ - INFO - OpenAI API key found
+2025-02-22 19:31:01,899 - __main__ - INFO - Starting Quart application
+2025-02-22 19:31:01,899 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 19:31:01,899 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:31:01,899 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 19:31:01,899 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 19:31:01,899 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 19:31:01,917 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 19:31:01,917 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 19:31:02,918 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 19:31:03,415 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:31:03,416 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 19:31:03,440 - __main__ - INFO - OpenAI API key found
+2025-02-22 19:31:03,456 - __main__ - INFO - Starting Quart application
+2025-02-22 19:31:03,456 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 19:31:03,456 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:31:03,456 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 19:31:03,456 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 19:31:03,456 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 19:31:03,473 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 19:31:03,474 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 19:32:10,935 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 19:32:11,460 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:32:11,461 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 19:32:11,485 - __main__ - INFO - OpenAI API key found
+2025-02-22 19:32:11,501 - __main__ - INFO - Starting Quart application
+2025-02-22 19:32:11,501 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 19:32:11,501 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:32:11,501 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 19:32:11,501 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 19:32:11,501 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 19:32:11,518 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 19:32:11,518 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 19:32:13,534 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 19:32:14,015 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:32:14,016 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 19:32:14,039 - __main__ - INFO - OpenAI API key found
+2025-02-22 19:32:14,055 - __main__ - INFO - Starting Quart application
+2025-02-22 19:32:14,056 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 19:32:14,056 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:32:14,056 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 19:32:14,056 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 19:32:14,056 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 19:32:14,073 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 19:32:14,073 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 19:32:58,119 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 63764): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 63764)>
+2025-02-22 19:32:58,128 - __main__ - INFO - Received script generation request
+2025-02-22 19:32:58,131 - __main__ - DEBUG - Request data: {'prompt': 'describe a beautiful kitchen renovation', 'duration': '30'}
+2025-02-22 19:32:58,131 - __main__ - INFO - Generating scripts for duration: 30s
+2025-02-22 19:32:58,131 - __main__ - INFO - Generating scripts for prompt: describe a beautiful kitchen renovation... (duration: 30s)
+2025-02-22 19:32:58,135 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional script writer specializing in voiceovers and commercials. \n                Create engaging, natural-sounding scripts that match the timing constraints perfectly. \n                Each script should be carefully timed where speaking at a natural pace would match the specified duration.'}, {'role': 'user', 'content': "Write 3 different 30-second script variations based on this prompt: describe a beautiful kitchen renovation\n\n                Requirements:\n                1. Each script must be timed to be spoken in exactly 30 seconds at a natural pace\n                2. Use natural, conversational language\n                3. Make each variation distinct but equally engaging\n                4. Focus on clarity and impact\n                5. Avoid any audio/visual directions - just the spoken words\n                6. Keep the length to no more than 3 sentences.\n                7. Keep sentences short.\n                8. Finish with a call-to-action like 'get your estimate' or 'learn more'.\n\n                Return ONLY the three script variations, separated by ||| (three pipes)."}], 'model': 'gpt-4'}}
+2025-02-22 19:32:58,153 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-02-22 19:32:58,153 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-02-22 19:32:58,179 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x1078599a0>
+2025-02-22 19:32:58,179 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x1062c6350> server_hostname='api.openai.com' timeout=5.0
+2025-02-22 19:32:58,191 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x10625dd90>
+2025-02-22 19:32:58,191 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-22 19:32:58,191 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-22 19:32:58,191 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-22 19:32:58,191 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-22 19:32:58,191 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-22 19:33:04,395 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sat, 22 Feb 2025 19:33:04 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-u65kabkbadcebd8ytdwynb4q'), (b'openai-processing-ms', b'5999'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'5000'), (b'x-ratelimit-limit-tokens', b'40000'), (b'x-ratelimit-remaining-requests', b'4999'), (b'x-ratelimit-remaining-tokens', b'39712'), (b'x-ratelimit-reset-requests', b'12ms'), (b'x-ratelimit-reset-tokens', b'432ms'), (b'x-request-id', b'req_1ce0003f9415b86aa1aab687df520a70'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=RRt2urtK2sM5c3Ue_74WvsTsN45.zq9gZISPbdCXtdo-1740252784-1.0.1.1-QKCNGeAVqH_5haucAxaR_gYMsPh9.f0FFYa0anfQIqStG_vJ_DFhIaTuiCMM5eydjbFKYWpb_wW8IEbjScyddQ; path=/; expires=Sat, 22-Feb-25 20:03:04 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=fEcKj6LPI06_aU_eecmbXiBSP341uSqUH9AJNZU2NQI-1740252784403-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'916167b7c9da93d9-LHR'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-02-22 19:33:04,399 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-22 19:33:04,399 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-22 19:33:04,399 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-22 19:33:04,399 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-22 19:33:04,400 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-22 19:33:04,400 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers([('date', 'Sat, 22 Feb 2025 19:33:04 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-expose-headers', 'X-Request-ID'), ('openai-organization', 'user-u65kabkbadcebd8ytdwynb4q'), ('openai-processing-ms', '5999'), ('openai-version', '2020-10-01'), ('x-ratelimit-limit-requests', '5000'), ('x-ratelimit-limit-tokens', '40000'), ('x-ratelimit-remaining-requests', '4999'), ('x-ratelimit-remaining-tokens', '39712'), ('x-ratelimit-reset-requests', '12ms'), ('x-ratelimit-reset-tokens', '432ms'), ('x-request-id', 'req_1ce0003f9415b86aa1aab687df520a70'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=RRt2urtK2sM5c3Ue_74WvsTsN45.zq9gZISPbdCXtdo-1740252784-1.0.1.1-QKCNGeAVqH_5haucAxaR_gYMsPh9.f0FFYa0anfQIqStG_vJ_DFhIaTuiCMM5eydjbFKYWpb_wW8IEbjScyddQ; path=/; expires=Sat, 22-Feb-25 20:03:04 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=fEcKj6LPI06_aU_eecmbXiBSP341uSqUH9AJNZU2NQI-1740252784403-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '916167b7c9da93d9-LHR'), ('content-encoding', 'gzip'), ('alt-svc', 'h3=":443"; ma=86400')])
+2025-02-22 19:33:04,400 - openai._base_client - DEBUG - request_id: req_1ce0003f9415b86aa1aab687df520a70
+2025-02-22 19:33:04,408 - __main__ - DEBUG - GPT-4 response: Variation 1:
+Imagine your dream kitchen — gleaming countertops, elegantly styled cabinets, and state-of-the-art appliances. Flawlessly marrying functionality with taste. Best part? It's all achievable with our bespoke kitchen renovations — we tailor dreams to suit your budget. Let's plan your kitchen transformation, get your estimate now!
+
+Variation 2:
+Cook more than meals; cook up memories in a beautifully renovated kitchen. Think shabby chic meets modern efficiency, where every day feels like a gourmet experience. Ready to spice up your life with a dash of elegance? Speak to our experts today, let them whip up a new recipe for your kitchen's look!
+
+Variation 3:
+Turn the heart of your home into an exquisite culinary canvas with our kitchen renovation services. Unleash your inner chef amid granite reclaimed-wood, stainless steel stoves, and smart storage solutions. To master the art of beautiful living, discover our kitchen renovations. Make your dream kitchen a reality—learn more today!
+2025-02-22 19:33:04,409 - __main__ - INFO - Generated 1 script variations
+2025-02-22 19:33:04,409 - __main__ - INFO - Scripts generated successfully
+2025-02-22 19:33:28,561 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 19:33:29,050 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:33:29,050 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 19:33:29,074 - __main__ - INFO - OpenAI API key found
+2025-02-22 19:33:29,090 - __main__ - INFO - Starting Quart application
+2025-02-22 19:33:29,090 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 19:33:29,090 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:33:29,090 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 19:33:29,090 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 19:33:29,090 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 19:33:29,108 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 19:33:29,108 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 19:33:32,224 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 63779): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 63779)>
+2025-02-22 19:33:32,232 - __main__ - INFO - Received script generation request
+2025-02-22 19:33:32,233 - __main__ - DEBUG - Request data: {'prompt': 'describe a beautiful kitchen renovation', 'duration': '30'}
+2025-02-22 19:33:32,233 - __main__ - INFO - Generating scripts for duration: 30s
+2025-02-22 19:33:32,233 - __main__ - INFO - Generating scripts for prompt: describe a beautiful kitchen renovation... (duration: 30s)
+2025-02-22 19:33:32,235 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional script writer specializing in voiceovers and commercials. \n                Create engaging, natural-sounding scripts that match the timing constraints perfectly. \n                Each script should be carefully timed where speaking at a natural pace would match the specified duration.'}, {'role': 'user', 'content': "Write 3 different 30-second script variations based on this prompt: describe a beautiful kitchen renovation\n\n                Requirements:\n                1. Each script must be timed to be spoken in exactly 30 seconds at a natural pace\n                2. Use natural, conversational language\n                3. Make each variation distinct but equally engaging\n                4. Focus on clarity and impact\n                5. Avoid any audio/visual directions - just the spoken words\n                6. Keep the length to no more than 3 sentences.\n                7. Keep sentences short.\n                8. The last sentence should be a call-to-action like 'get your estimate' or 'learn more'.\n\n                Return ONLY the three script variations, separated by ||| (three pipes)."}], 'model': 'gpt-4'}}
+2025-02-22 19:33:32,249 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-02-22 19:33:32,249 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-02-22 19:33:32,258 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x106b86720>
+2025-02-22 19:33:32,259 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x1068fa350> server_hostname='api.openai.com' timeout=5.0
+2025-02-22 19:33:32,271 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x106b86000>
+2025-02-22 19:33:32,271 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-22 19:33:32,271 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-22 19:33:32,271 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-22 19:33:32,271 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-22 19:33:32,271 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-22 19:33:38,732 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sat, 22 Feb 2025 19:33:38 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-u65kabkbadcebd8ytdwynb4q'), (b'openai-processing-ms', b'6217'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'5000'), (b'x-ratelimit-limit-tokens', b'40000'), (b'x-ratelimit-remaining-requests', b'4999'), (b'x-ratelimit-remaining-tokens', b'39708'), (b'x-ratelimit-reset-requests', b'12ms'), (b'x-ratelimit-reset-tokens', b'438ms'), (b'x-request-id', b'req_9b6986b68191b42dfdb1e8b9788e98b7'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=3piEqLcdONwMh072_HuTdP8HxFCXjtjBYAoN5RWoqmU-1740252818-1.0.1.1-k785dQQoDZa53am9Js47LgeeH.zX5oOg3H.slZ5tHZjQwlzEO04M5UWSf8R3Wy489AcRpDWjeXoeaNU2cE.GeQ; path=/; expires=Sat, 22-Feb-25 20:03:38 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=V0EXCjoJ.jhBcQ5erhBySQYS5d1aXF_JDd46BB._Bgo-1740252818714-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'9161688cdb4d93d9-LHR'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-02-22 19:33:38,736 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-22 19:33:38,736 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-22 19:33:38,737 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-22 19:33:38,737 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-22 19:33:38,737 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-22 19:33:38,737 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers([('date', 'Sat, 22 Feb 2025 19:33:38 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-expose-headers', 'X-Request-ID'), ('openai-organization', 'user-u65kabkbadcebd8ytdwynb4q'), ('openai-processing-ms', '6217'), ('openai-version', '2020-10-01'), ('x-ratelimit-limit-requests', '5000'), ('x-ratelimit-limit-tokens', '40000'), ('x-ratelimit-remaining-requests', '4999'), ('x-ratelimit-remaining-tokens', '39708'), ('x-ratelimit-reset-requests', '12ms'), ('x-ratelimit-reset-tokens', '438ms'), ('x-request-id', 'req_9b6986b68191b42dfdb1e8b9788e98b7'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=3piEqLcdONwMh072_HuTdP8HxFCXjtjBYAoN5RWoqmU-1740252818-1.0.1.1-k785dQQoDZa53am9Js47LgeeH.zX5oOg3H.slZ5tHZjQwlzEO04M5UWSf8R3Wy489AcRpDWjeXoeaNU2cE.GeQ; path=/; expires=Sat, 22-Feb-25 20:03:38 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=V0EXCjoJ.jhBcQ5erhBySQYS5d1aXF_JDd46BB._Bgo-1740252818714-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '9161688cdb4d93d9-LHR'), ('content-encoding', 'gzip'), ('alt-svc', 'h3=":443"; ma=86400')])
+2025-02-22 19:33:38,738 - openai._base_client - DEBUG - request_id: req_9b6986b68191b42dfdb1e8b9788e98b7
+2025-02-22 19:33:38,746 - __main__ - DEBUG - GPT-4 response: 1. Picture this. You step into your new kitchen, awash in warm sunlight filtering through elegant French windows. A stunning quartz countertop gleams under pendant lights, capturing the essence of your sophisticated tastes. Don't just imagine—bring your dream kitchen to life today. Get your free estimate now!
+
+|||
+
+2. Welcome home, to a kitchen that strikes the perfect balance of function and design. Stainless steel appliances, hardwood flooring, and custom cabinets, all singing in harmony to your culinary tune. Your beautiful kitchen transformation is but a click away. Let's start this exciting journey together!
+
+|||
+
+3.  Experience a transformation like no other, a kitchen reimagined just for you. Beautiful marble surfaces blend seamlessly with a timeless subway tile backsplash. Join us and make this picture-perfect kitchen your reality. Learn more about our personalized renovation plans now!
+2025-02-22 19:33:38,746 - __main__ - INFO - Generated 3 script variations
+2025-02-22 19:33:38,746 - __main__ - INFO - Scripts generated successfully
+2025-02-22 19:33:47,989 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 63781): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 63781)>
+2025-02-22 19:33:47,995 - __main__ - INFO - Received voiceover generation request
+2025-02-22 19:33:47,996 - __main__ - DEBUG - Request data: {'text': '3.  Experience a transformation like no other, a kitchen reimagined just for you. Beautiful marble surfaces blend seamlessly with a timeless subway tile backsplash. Join us and make this picture-perfect kitchen your reality. Learn more about our personalized renovation plans now!', 'voice': 'JBFqnCBsd6RMkjVDRZzb'}
+2025-02-22 19:33:47,996 - __main__ - INFO - Generating voiceover for text: 3.  Experience a transformation like no other, a kitchen reimagined just for you. Beautiful marble s...
+2025-02-22 19:33:47,996 - __main__ - INFO - Using voice ID: JBFqnCBsd6RMkjVDRZzb
+2025-02-22 19:33:47,996 - __main__ - DEBUG - Calling ElevenLabs API
+2025-02-22 19:33:47,996 - __main__ - DEBUG - Converting audio generator to bytes
+2025-02-22 19:33:47,998 - httpcore.connection - DEBUG - connect_tcp.started host='api.elevenlabs.io' port=443 local_address=None timeout=60 socket_options=None
+2025-02-22 19:33:48,008 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x106b87350>
+2025-02-22 19:33:48,008 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x1068fa0d0> server_hostname='api.elevenlabs.io' timeout=60
+2025-02-22 19:33:48,024 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x106b85c10>
+2025-02-22 19:33:48,025 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-22 19:33:48,025 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-22 19:33:48,025 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-22 19:33:48,025 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-22 19:33:48,025 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-22 19:33:51,849 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'date', b'Sat, 22 Feb 2025 19:33:47 GMT'), (b'server', b'uvicorn'), (b'request-id', b'PIpu38HEsiasbmY6kHN1'), (b'access-control-expose-headers', b'request-id, history-item-id, character-cost, regeneration-count, generation-info, current-concurrent-requests, maximum-concurrent-requests'), (b'history-item-id', b'1BimvLXHU5hbVDPtXgCK'), (b'current-concurrent-requests', b'1'), (b'maximum-concurrent-requests', b'2'), (b'character-cost', b'280'), (b'tts-latency-ms', b'3217'), (b'Content-Length', b'291317'), (b'content-type', b'audio/mpeg'), (b'access-control-allow-origin', b'*'), (b'access-control-allow-headers', b'*'), (b'access-control-allow-methods', b'POST, PATCH, OPTIONS, DELETE, GET, PUT'), (b'access-control-max-age', b'600'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains'), (b'x-trace-id', b'50b338fcda9cc6435ae5c40f7134f191'), (b'Via', b'1.1 google'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000')])
+2025-02-22 19:33:51,851 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/JBFqnCBsd6RMkjVDRZzb?output_format=mp3_44100_128 "HTTP/1.1 200 OK"
+2025-02-22 19:33:51,851 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-22 19:33:51,900 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-22 19:33:51,900 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-22 19:33:51,901 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-22 19:33:51,901 - __main__ - DEBUG - Generated 291317 bytes of audio data
+2025-02-22 19:33:51,901 - __main__ - DEBUG - Saving audio to /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp/voiceover_8837405431590281096.mp3
+2025-02-22 19:33:51,902 - __main__ - INFO - Voiceover generated and saved successfully
+2025-02-22 19:33:51,904 - asyncio - WARNING - Executing <Task finished name='Task-19' coro=<ASGIHTTPConnection.handle_request() done, defined at /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/quart/asgi.py:106> result=None created at /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/tasks.py:695> took 3.909 seconds
+2025-02-22 19:33:51,916 - __main__ - INFO - Serving audio file: voiceover_8837405431590281096.mp3
+2025-02-22 19:34:36,878 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 19:34:37,390 - __main__ - INFO - Looking for .env file at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:34:37,391 - __main__ - INFO - ElevenLabs API key found
+2025-02-22 19:34:37,415 - __main__ - INFO - OpenAI API key found
+2025-02-22 19:34:37,431 - __main__ - INFO - Starting Quart application
+2025-02-22 19:34:37,431 - __main__ - INFO - Temporary directory created at: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp
+2025-02-22 19:34:37,431 - __main__ - INFO - Environment variables loaded from: /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/.env
+2025-02-22 19:34:37,431 - __main__ - INFO - OpenAI API key present: True
+2025-02-22 19:34:37,431 - __main__ - INFO - ElevenLabs API key present: True
+2025-02-22 19:34:37,431 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-02-22 19:34:37,449 - asyncio - INFO - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> is serving
+2025-02-22 19:34:37,449 - hypercorn.error - INFO - Running on http://127.0.0.1:5001 (CTRL + C to quit)
+2025-02-22 19:34:43,809 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 63793): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 63793)>
+2025-02-22 19:34:43,811 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 63794): <socket.socket fd=9, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 63794)>
+2025-02-22 19:34:43,821 - __main__ - INFO - Serving index page
+2025-02-22 19:35:02,549 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 63796): <socket.socket fd=8, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 63796)>
+2025-02-22 19:35:02,555 - __main__ - INFO - Received script generation request
+2025-02-22 19:35:02,555 - __main__ - DEBUG - Request data: {'prompt': 'create your dream kitchen with elevenlabs', 'duration': '10'}
+2025-02-22 19:35:02,556 - __main__ - INFO - Generating scripts for duration: 10s
+2025-02-22 19:35:02,556 - __main__ - INFO - Generating scripts for prompt: create your dream kitchen with elevenlabs... (duration: 10s)
+2025-02-22 19:35:02,562 - openai._base_client - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are a professional script writer specializing in voiceovers and commercials. \n                Create engaging, natural-sounding scripts that match the timing constraints perfectly. \n                Each script should be carefully timed where speaking at a natural pace would match the specified duration.'}, {'role': 'user', 'content': "Write 3 different 10-second script variations based on this prompt: create your dream kitchen with elevenlabs\n\n                Requirements:\n                1. Each script must be timed to be spoken in exactly 10 seconds at a natural pace\n                2. Use natural, conversational language\n                3. Make each variation distinct but equally engaging\n                4. Focus on clarity and impact\n                5. Avoid any audio/visual directions - just the spoken words\n                6. Keep the length to no more than 3 sentences.\n                7. Keep sentences short.\n                8. The last sentence should be a call-to-action like 'get your estimate' or 'learn more'.\n\n                Return ONLY the three script variations, separated by ||| (three pipes)."}], 'model': 'gpt-4'}}
+2025-02-22 19:35:02,586 - openai._base_client - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-02-22 19:35:02,586 - httpcore.connection - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-02-22 19:35:02,614 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x106362120>
+2025-02-22 19:35:02,614 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x105d7e350> server_hostname='api.openai.com' timeout=5.0
+2025-02-22 19:35:02,625 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x1063624b0>
+2025-02-22 19:35:02,626 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-22 19:35:02,626 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-22 19:35:02,626 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-22 19:35:02,626 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-22 19:35:02,626 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-22 19:35:06,123 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sat, 22 Feb 2025 19:35:06 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-u65kabkbadcebd8ytdwynb4q'), (b'openai-processing-ms', b'3286'), (b'openai-version', b'2020-10-01'), (b'x-ratelimit-limit-requests', b'5000'), (b'x-ratelimit-limit-tokens', b'40000'), (b'x-ratelimit-remaining-requests', b'4999'), (b'x-ratelimit-remaining-tokens', b'39708'), (b'x-ratelimit-reset-requests', b'12ms'), (b'x-ratelimit-reset-tokens', b'438ms'), (b'x-request-id', b'req_942065ccf1874987835568dfcf0ae4b3'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=C9qRv4.repy255vhbRlKFyKUrw.bQeOl5gp2QtdkhmA-1740252906-1.0.1.1-kYhkIe_p6hJCyFCZwTl7qbOQF00QE3FyPJTjh5doiYhx1Xz2.yIT6eVXjTrPxIu4n.gvZqRxUTkyWftzFvazmg; path=/; expires=Sat, 22-Feb-25 20:05:06 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=SJqeaH1WzLCvLYb_50i8aNYRf4VDsLNLCIXXxwLiM2w-1740252906132-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'91616ac189fb6418-LHR'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-02-22 19:35:06,124 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-22 19:35:06,124 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-22 19:35:06,125 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-22 19:35:06,125 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-22 19:35:06,125 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-22 19:35:06,125 - openai._base_client - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers([('date', 'Sat, 22 Feb 2025 19:35:06 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-expose-headers', 'X-Request-ID'), ('openai-organization', 'user-u65kabkbadcebd8ytdwynb4q'), ('openai-processing-ms', '3286'), ('openai-version', '2020-10-01'), ('x-ratelimit-limit-requests', '5000'), ('x-ratelimit-limit-tokens', '40000'), ('x-ratelimit-remaining-requests', '4999'), ('x-ratelimit-remaining-tokens', '39708'), ('x-ratelimit-reset-requests', '12ms'), ('x-ratelimit-reset-tokens', '438ms'), ('x-request-id', 'req_942065ccf1874987835568dfcf0ae4b3'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=C9qRv4.repy255vhbRlKFyKUrw.bQeOl5gp2QtdkhmA-1740252906-1.0.1.1-kYhkIe_p6hJCyFCZwTl7qbOQF00QE3FyPJTjh5doiYhx1Xz2.yIT6eVXjTrPxIu4n.gvZqRxUTkyWftzFvazmg; path=/; expires=Sat, 22-Feb-25 20:05:06 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=SJqeaH1WzLCvLYb_50i8aNYRf4VDsLNLCIXXxwLiM2w-1740252906132-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '91616ac189fb6418-LHR'), ('content-encoding', 'gzip'), ('alt-svc', 'h3=":443"; ma=86400')])
+2025-02-22 19:35:06,126 - openai._base_client - DEBUG - request_id: req_942065ccf1874987835568dfcf0ae4b3
+2025-02-22 19:35:06,131 - __main__ - DEBUG - GPT-4 response: "Ever dream of a kitchen that takes your breath away? With Elevenlabs, we make that dream a reality. Get your free estimate now." ||| "Revamp your cooking space with Elevenlabs - a kitchen designed personally, for you. Why wait? Learn more today." ||| "Create your ideal kitchen with Elevenlabs. Turn the heart of your home into a masterpiece. Start your journey with us now."
+2025-02-22 19:35:06,131 - __main__ - INFO - Generated 3 script variations
+2025-02-22 19:35:06,131 - __main__ - INFO - Scripts generated successfully
+2025-02-22 19:35:09,875 - __main__ - INFO - Received voiceover generation request
+2025-02-22 19:35:09,875 - __main__ - DEBUG - Request data: {'text': '"Ever dream of a kitchen that takes your breath away? With Elevenlabs, we make that dream a reality. Get your free estimate now."', 'voice': 'wJqPPQ618aTW29mptyoc'}
+2025-02-22 19:35:09,876 - __main__ - INFO - Generating voiceover for text: "Ever dream of a kitchen that takes your breath away? With Elevenlabs, we make that dream a reality....
+2025-02-22 19:35:09,876 - __main__ - INFO - Using voice ID: wJqPPQ618aTW29mptyoc
+2025-02-22 19:35:09,876 - __main__ - DEBUG - Calling ElevenLabs API
+2025-02-22 19:35:09,876 - __main__ - DEBUG - Converting audio generator to bytes
+2025-02-22 19:35:09,877 - httpcore.connection - DEBUG - connect_tcp.started host='api.elevenlabs.io' port=443 local_address=None timeout=60 socket_options=None
+2025-02-22 19:35:09,894 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x106363bf0>
+2025-02-22 19:35:09,894 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x105d7e0d0> server_hostname='api.elevenlabs.io' timeout=60
+2025-02-22 19:35:09,910 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x106363830>
+2025-02-22 19:35:09,910 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-02-22 19:35:09,911 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-02-22 19:35:09,911 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-02-22 19:35:09,911 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-02-22 19:35:09,911 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-02-22 19:35:12,046 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'date', b'Sat, 22 Feb 2025 19:35:09 GMT'), (b'server', b'uvicorn'), (b'request-id', b'UxagX0L5NGthemplAMwi'), (b'access-control-expose-headers', b'request-id, history-item-id, character-cost, regeneration-count, generation-info, current-concurrent-requests, maximum-concurrent-requests'), (b'history-item-id', b'xUAoS7cjhJbAtkkK3m21'), (b'current-concurrent-requests', b'1'), (b'maximum-concurrent-requests', b'2'), (b'character-cost', b'129'), (b'tts-latency-ms', b'1810'), (b'Content-Length', b'160914'), (b'content-type', b'audio/mpeg'), (b'access-control-allow-origin', b'*'), (b'access-control-allow-headers', b'*'), (b'access-control-allow-methods', b'POST, PATCH, OPTIONS, DELETE, GET, PUT'), (b'access-control-max-age', b'600'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains'), (b'x-trace-id', b'f3fe7eb9d0b280ae5c3f97075709e9c4'), (b'Via', b'1.1 google'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000')])
+2025-02-22 19:35:12,047 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/wJqPPQ618aTW29mptyoc?output_format=mp3_44100_128 "HTTP/1.1 200 OK"
+2025-02-22 19:35:12,047 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-02-22 19:35:12,100 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-02-22 19:35:12,101 - httpcore.http11 - DEBUG - response_closed.started
+2025-02-22 19:35:12,101 - httpcore.http11 - DEBUG - response_closed.complete
+2025-02-22 19:35:12,101 - __main__ - DEBUG - Generated 160914 bytes of audio data
+2025-02-22 19:35:12,102 - __main__ - DEBUG - Saving audio to /Users/chris/repos/projects/elevenlabs-hackathon/ai_cmo/tools/test_pages/temp/voiceover_7043377993708415111.mp3
+2025-02-22 19:35:12,103 - __main__ - INFO - Voiceover generated and saved successfully
+2025-02-22 19:35:12,105 - asyncio - WARNING - Executing <Task finished name='Task-27' coro=<ASGIHTTPConnection.handle_request() done, defined at /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/quart/asgi.py:106> result=None created at /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/tasks.py:695> took 2.230 seconds
+2025-02-22 19:35:12,110 - __main__ - INFO - Serving audio file: voiceover_7043377993708415111.mp3
+2025-02-22 19:35:12,124 - asyncio - DEBUG - <Server sockets=(<asyncio.TransportSocket fd=7, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001)>,)> got a new connection from ('127.0.0.1', 63802): <socket.socket fd=20, family=2, type=1, proto=0, laddr=('127.0.0.1', 5001), raddr=('127.0.0.1', 63802)>
+2025-02-22 19:39:24,484 - asyncio - DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+2025-02-22 19:39:24,549 - httpcore.connection - DEBUG - close.started
+2025-02-22 19:39:24,551 - httpcore.connection - DEBUG - close.complete
