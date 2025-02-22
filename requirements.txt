@@ -1,10 +1,6 @@
 streamlit
 python-dotenv
 groq
-dotenv
-python-telegram-bot>=20.0
-anthropic
-elevenlabs
 openai
 elevenlabs
 moviepy
@@ -18,3 +14,4 @@ proglog
 flask
 quart
 hypercorn
+python-telegram-bot>=20.0

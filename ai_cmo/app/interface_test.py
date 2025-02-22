@@ -11,7 +11,7 @@ parent_dir = str(Path(__file__).parents[1])
 if parent_dir not in sys.path:
     sys.path.append(parent_dir)
 
-from tools.video_creator import VideoCreator, VideoGenerationConfig
+from tools.video_creator import VideoCreator, VideoGenerationConfig, ScriptConfig
 
 # Load environment variables
 load_dotenv()
@@ -41,6 +41,7 @@ def get_ai_response(prompt, context=None):
     2. Ask about preferred duration (5 or 10 seconds)
     3. Ask about aspect ratio preference (16:9, 9:16, or 1:1)
     4. Help craft a descriptive prompt for the video generation
+    5. Ask if they would like a script generated
     
     For complex tasks, you defer to Big Mind, but for quick strategic advice and simple queries, you handle them directly."""
     
@@ -64,13 +65,26 @@ def get_ai_response(prompt, context=None):
     except Exception as e:
         return f"Error: {str(e)}"
 
-async def generate_video(image_path: str, prompt: str, duration: str, aspect_ratio: str):
-    """Generate video using the VideoCreator."""
+async def generate_video(image_path: str, prompt: str, duration: str, aspect_ratio: str, script_enabled: bool = False, script_text: str = None):
+    """Generate video using the VideoCreator.
+    
+    Args:
+        image_path (str): Path to the source image.
+        prompt (str): Description of the desired video.
+        duration (str): Video duration in seconds ("5" or "10").
+        aspect_ratio (str): Video aspect ratio ("16:9", "9:16", or "1:1").
+        script_enabled (bool, optional): Whether to generate a script. Defaults to False.
+        script_text (str, optional): Custom script text. Defaults to None.
+    """
     config = VideoGenerationConfig(
         prompt=prompt,
         image_url=image_path,
         duration=duration,
-        aspect_ratio=aspect_ratio
+        aspect_ratio=aspect_ratio,
+        script=ScriptConfig(
+            enabled=script_enabled,
+            base_script=script_text
+        )
     )
     return await video_creator.create_video(config)
 
@@ -101,6 +115,19 @@ def main():
             duration = st.selectbox("Duration (seconds)", ["5", "10"], key="duration")
             aspect_ratio = st.selectbox("Aspect Ratio", ["16:9", "9:16", "1:1"], key="aspect_ratio")
             
+            # Add script options
+            st.header("Script Settings")
+            script_enabled = st.checkbox("Generate Script", value=False, key="script_enabled")
+            script_text = None
+            if script_enabled:
+                script_text = st.text_area(
+                    "Custom Script (optional)",
+                    help="Leave empty to auto-generate script",
+                    key="script_text"
+                )
+                if script_text and not script_text.strip():
+                    script_text = None
+            
             # Show test controls if test mode is enabled
             if st.session_state.test_mode:
                 test_prompt = st.text_area(
@@ -110,7 +137,7 @@ def main():
                 )
                 
                 if st.button("🚀 Test Video Generation"):
-                    with st.spinner("Generating test video..."):
+                    with st.spinner("Generating video..."):
                         try:
                             # Save uploaded image temporarily
                             temp_dir = Path("temp")
@@ -124,13 +151,20 @@ def main():
                                 str(image_path),
                                 test_prompt,
                                 duration,
-                                aspect_ratio
+                                aspect_ratio,
+                                script_enabled,
+                                script_text
                             ))
                             
                             # Display video result
                             if "video" in video_result and "url" in video_result["video"]:
                                 st.success("✅ Video generated successfully!")
                                 st.video(video_result["video"]["url"])
+                                
+                                # Show script if it was generated
+                                if "script" in video_result:
+                                    st.info("📝 Generated Script:")
+                                    st.text(video_result["script"])
                             else:
                                 st.error("❌ Failed to generate video")
                                 st.json(video_result)  # Show raw response for debugging
@@ -145,7 +179,9 @@ def main():
                 st.session_state.video_config = {
                     "duration": duration,
                     "aspect_ratio": aspect_ratio,
-                    "prompt": None
+                    "prompt": None,
+                    "script_enabled": script_enabled,
+                    "script_text": script_text
                 }
     
     # Only show chat interface if not in test mode
@@ -198,7 +234,9 @@ def main():
                                         str(image_path),
                                         st.session_state.video_config["prompt"],
                                         st.session_state.video_config["duration"],
-                                        st.session_state.video_config["aspect_ratio"]
+                                        st.session_state.video_config["aspect_ratio"],
+                                        st.session_state.video_config["script_enabled"],
+                                        st.session_state.video_config["script_text"]
                                     ))
                                     
                                     # Update progress
@@ -206,8 +244,13 @@ def main():
                                     
                                     # Display video result
                                     if "video" in video_result and "url" in video_result["video"]:
-                                        st.success(f"✅ Video generated successfully! URL: {video_result['video']['url']}")
+                                        st.success(f"✅ Video generated successfully!")
                                         st.video(video_result["video"]["url"])
+                                        
+                                        # Show script if it was generated
+                                        if "script" in video_result:
+                                            st.info("📝 Generated Script:")
+                                            st.text(video_result["script"])
                                         
                                         # Add direct link
                                         st.markdown(f"[📥 Download Video]({video_result['video']['url']})")
