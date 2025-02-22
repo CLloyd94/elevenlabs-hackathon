@@ -28,7 +28,7 @@ This guide details a granular, step-by-step approach to implementing the Ad Crea
      ```
    - Set up a Python 3 virtual environment
    - Install required dependencies:
-     - `moviepy`
+     - `ffmpeg-python`
      - `openai` (for GPT-4 integration)
      - `requests`
      - API client libraries for fal.ai and ElevenLabs
@@ -98,7 +98,6 @@ This guide details a granular, step-by-step approach to implementing the Ad Crea
 2. **Small Mind Agents (`agents/small_mind.py`):**
    - Implement specialized agents:
      - Creative Agent:
-       - Text overlay generation
        - Style guidance
        - Creative decision making
        - Video style optimization
@@ -191,7 +190,6 @@ This guide details a granular, step-by-step approach to implementing the Ad Crea
    - **Agent:** Creative Small Mind
    - **Tools:** Video Creator, GPT-4
    - Implementation tasks:
-     - Generate text overlays
      - Create voiceover options
      - Apply style preferences
      - Implement transitions
