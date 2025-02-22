@@ -10,9 +10,9 @@ This document outlines the workflow, technical architecture, and module structur
   Automatically generate engaging video ads from a user-supplied image and creative brief.  
 - **Key Integrations:**  
   - **fal.ai (Kling Video API):** For automated video editing and creative manipulation.
-  - **GPT-4:** For generating multiple text overlays and voiceover scripts.
+  - **GPT-4:** For generating voiceover scripts.
   - **ElevenLabs:** For converting text scripts into high-quality voiceover audio.
-  - **moviepy:** For integrating the generated voiceover with the video ad.
+  - **ffmpeg:** For integrating the generated voiceover with the video ad.
 
 ---
 
@@ -33,16 +33,7 @@ This document outlines the workflow, technical architecture, and module structur
   - **Technical Agent:** Manages API interactions and technical processing
   - **QA Agent:** Validates outputs and ensures quality standards
 
-### Step 3: Text Overlay Generation
-- **User Input for Overlays:**  
-  - The user provides ideas and instructions for text overlays.
-- **AI Generation:**  
-  - GPT-4 generates 5–10 distinct text overlay options based on the provided instructions.
-- **User Review:**  
-  - The user reviews, approves, or rejects each overlay.
-  - Approved overlays can be applied to create multiple versions of the video ad.
-
-### Step 4: Voiceover Creation (Optional)
+### Step 3: Voiceover Creation (Optional)
 - **Initial Voiceover Setup:**  
   - The user may choose to add a voiceover.
   - The user selects a preferred voice, provides a base script, and specifies the desired length.
@@ -52,12 +43,12 @@ This document outlines the workflow, technical architecture, and module structur
   - The user edits the transcript if needed; changes update the generated voiceover.
   - Once approved, the AI can produce alternative voiceover script variations for different ad versions.
 
-### Step 5: Final Video Assembly with moviepy
+### Step 4: Final Video Assembly with ffmpeg
 - **Voiceover Integration:**  
   - The approved voiceover audio (generated via ElevenLabs) is merged with the video ad.
-  - moviepy is used to handle audio synchronization and final video export.
+  - ffmpeg is used to handle audio synchronization and final video export.
 - **Export:**  
-  - The final video ad is exported with integrated text overlays and voiceover.
+  - The final video ad is exported with integrated voiceover.
 
 ---
 
@@ -100,7 +91,6 @@ This document outlines the workflow, technical architecture, and module structur
 - **Agent Responsible:** Creative Small Mind
 - **Tools Used:** Video Creator, GPT-4
 - **Process:**
-  - Generate text overlays
   - Create voiceover scripts
   - Apply creative modifications
 
@@ -140,7 +130,7 @@ ai_cmo/
   - fal.ai (Kling Video API client)  
   - OpenAI GPT-4 API client  
   - ElevenLabs API client  
-  - moviepy
+  - ffmpeg-python
 - **Additional Libraries:**  
   - requests, json, and any others required for API integration
 - **Security:**  
