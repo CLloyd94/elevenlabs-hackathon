@@ -1,13 +1,18 @@
 import streamlit as st
+import sys
 import os
+import threading
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from dotenv import load_dotenv
-from groq import Groq
+from agents.small_mind import SmallMind
+from agents.Big_Mind import BigMind
 
 # Load environment variables
 load_dotenv()
 
-# Initialize Groq client
-client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+# Initialize agents
+small_mind = SmallMind()
+big_mind = BigMind()
 
 def initialize_session_state():
     """Initialize session state variables."""
@@ -16,24 +21,28 @@ def initialize_session_state():
     if "conversation_active" not in st.session_state:
         st.session_state.conversation_active = False
 
-def get_ai_response(prompt):
-    """Get response from Small Mind (Llama-3.1-8b-instant)."""
-    try:
-        completion = client.chat.completions.create(
-            messages=[
-                {
-                    "role": "system",
-                    "content": "You are an AI Chief Marketing Officer. You help with marketing strategy, content creation, and campaign management. For complex tasks, you defer to Big Mind, but for quick strategic advice and simple queries, you handle them directly."
-                },
-                {"role": "user", "content": prompt}
-            ],
-            model="llama-3.1-8b-instant", 
-            temperature=0.7,
-            max_tokens=1000,
+def execute_big_mind_task(action: str, user_message: str):
+    """Execute Big Mind task in background"""
+    big_mind_response = big_mind.process_request(user_message)
+    # Here you would handle the actual tool execution
+    # and potentially update status.txt or trigger notifications
+    print(f"Big Mind executing task: {action}")  # For debugging
+
+def process_request(user_message: str):
+    """Process user request through Small Mind and potentially trigger Big Mind"""
+    # Get Small Mind's response
+    small_mind_response = small_mind.process_message(user_message)
+    
+    # If Big Mind needs to be activated, do it in background
+    if small_mind_response["activate_big_mind"]:
+        thread = threading.Thread(
+            target=execute_big_mind_task,
+            args=(small_mind_response["action"], user_message)
         )
-        return completion.choices[0].message.content
-    except Exception as e:
-        return f"Error: {str(e)}"
+        thread.start()
+    
+    # Return Small Mind's message to user
+    return small_mind_response["message_to_user"]
 
 def main():
     st.title("AI Chief Marketing Officer 🎯")
@@ -53,12 +62,11 @@ def main():
         with st.chat_message("user"):
             st.write(prompt)
         
-        # Get AI response
+        # Get AI response (only from Small Mind)
         with st.chat_message("assistant"):
-            with st.spinner("Thinking..."):
-                response = get_ai_response(prompt)
-                st.write(response)
-                st.session_state.messages.append({"role": "assistant", "content": response})
+            response = process_request(prompt)
+            st.write(response)
+            st.session_state.messages.append({"role": "assistant", "content": response})
 
 if __name__ == "__main__":
     main()
