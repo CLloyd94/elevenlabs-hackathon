@@ -51,94 +51,94 @@ class BigMind:
         
         self.system_prompt = """You are an AI Chief Marketing Officer with access to several tools. Your role is to analyze user requests and determine if and which tools should be used to fulfill them.
 
-Available tools:
-- Write_Report: For creating detailed marketing reports (requires campaign_data parameter)
-- Send_Message: For sending messages via Telegram
-- Create_Ad_from_Image: For creating video ads from images
-- Post_Video_Ad: For uploading videos to Meta Ads campaigns
-- Fetch_Campaign_Insight: For fetching campaign insights from Facebook API
+        Available tools:
+        - Write_Report: For creating detailed marketing reports (requires campaign_data parameter)
+        - Send_Message: For sending messages via Telegram
+        - Create_Ad_from_Image: For creating video ads from images
+        - Post_Video_Ad: For uploading videos to Meta Ads campaigns
+        - Fetch_Campaign_Insight: For fetching campaign insights from Facebook API
 
-When you receive a message, you should:
-1. Analyze if the request requires using any of the available tools
-2. Return a JSON response in the following format:
-{
-    "requires_tool": true/false,
-    "tool_name": "name_of_tool_or_null",
-    "reason": "explanation of your decision",
-    "parameters": {...} # any parameters needed for the tool
-}
+        When you receive a message, you should:
+        1. Analyze if the request requires using any of the available tools
+        2. Return a JSON response in the following format:
+        {
+            "requires_tool": true/false,
+            "tool_name": "name_of_tool_or_null",
+            "reason": "explanation of your decision",
+            "parameters": {...} # any parameters needed for the tool
+        }
 
-For Write_Report tool, include a "campaign_data" parameter with the path to the campaign data.
-For Send_Message tool, include a "message" parameter with the text to be sent.
+        For Write_Report tool, include a "campaign_data" parameter with the path to the campaign data.
+        For Send_Message tool, include a "message" parameter with the text to be sent.
 
-Example user messages and responses:
-"Can you create a video ad from this product image?" 
-→ {"requires_tool": true, "tool_name": "Create_Ad_from_Image", "reason": "User explicitly requested video ad creation", "parameters": {"image_path": "path_to_image", "video_description": "user_description"}}
+        Example user messages and responses:
+        "Can you create a video ad from this product image?" 
+        → {"requires_tool": true, "tool_name": "Create_Ad_from_Image", "reason": "User explicitly requested video ad creation", "parameters": {"image_path": "path_to_image", "video_description": "user_description"}}
 
-"Generate a performance report for our campaign"
-→ {"requires_tool": true, "tool_name": "Write_Report", "reason": "User requested performance report generation", "parameters": {"campaign_data": "campaign-data.json"}}
+        "Generate a performance report for our campaign"
+        → {"requires_tool": true, "tool_name": "Write_Report", "reason": "User requested performance report generation", "parameters": {"campaign_data": "campaign-data.json"}}
 
-"Send a message to notify the team about the new campaign launch"
-→ {"requires_tool": true, "tool_name": "Send_Message", "reason": "User requested to send a notification", "parameters": {"message": "New campaign launch notification: The marketing campaign is now live!"}}
+        "Send a message to notify the team about the new campaign launch"
+        → {"requires_tool": true, "tool_name": "Send_Message", "reason": "User requested to send a notification", "parameters": {"message": "New campaign launch notification: The marketing campaign is now live!"}}
 
-"Upload our new product video to the Meta Ads campaign"
-→ {"requires_tool": true, "tool_name": "Post_Video_Ad", "reason": "User requested to upload a video to Meta Ads Campaign", "parameters": {"remote_file_path": "https://example.com/video.mp4", "title": "New Product Launch", "description": "Exciting new product features"}}
+        "Upload our new product video to the Meta Ads campaign"
+        → {"requires_tool": true, "tool_name": "Post_Video_Ad", "reason": "User requested to upload a video to Meta Ads Campaign", "parameters": {"remote_file_path": "https://example.com/video.mp4", "title": "New Product Launch", "description": "Exciting new product features"}}
 
-"What do you think about our marketing strategy?"
-→ {"requires_tool": false, "tool_name": null, "reason": "This is a general discussion query that doesn't require tool usage", "parameters": {}}
+        "What do you think about our marketing strategy?"
+        → {"requires_tool": false, "tool_name": null, "reason": "This is a general discussion query that doesn't require tool usage", "parameters": {}}
 
-Remember: Only suggest using a tool when it's clearly needed to fulfill the user's request."""
+        Remember: Only suggest using a tool when it's clearly needed to fulfill the user's request."""
     
-def generate_performance_report(self, campaign_data: dict) -> dict:
-    try:
-        data_context = json.dumps(campaign_data, indent=2)
-        
-        system_prompt = """You are an expert marketing analyst tasked with creating detailed performance reports for Meta Ad campaigns.
-        Your reports should be professional, data-driven, and ready to be sent to clients.
-        
-        Structure your report with the following sections:
-        1. Executive Summary
-        2. Campaign Performance Overview
-        3. Key Metrics Analysis
-        4. Week-over-Week Performance
-        5. Areas for Optimization
-        6. Recommendations"""
-        
-        user_prompt = f"""Please analyze this Meta Ads campaign performance data and generate a comprehensive report:
+    def generate_performance_report(self, campaign_data: dict) -> dict:
+        try:
+            data_context = json.dumps(campaign_data, indent=2)
+            
+            system_prompt = """You are an expert marketing analyst tasked with creating detailed performance reports for Meta Ad campaigns.
+            Your reports should be professional, data-driven, and ready to be sent to clients.
+            
+            Structure your report with the following sections:
+            1. Executive Summary
+            2. Campaign Performance Overview
+            3. Key Metrics Analysis
+            4. Week-over-Week Performance
+            5. Areas for Optimization
+            6. Recommendations"""
+            
+            user_prompt = f"""Please analyze this Meta Ads campaign performance data and generate a comprehensive report:
 
-        Campaign Data:
-        {data_context}
+            Campaign Data:
+            {data_context}
 
-        Please provide a detailed analysis that highlights:
-        - Overall performance trends
-        - Key metrics and their changes over time
-        - Notable improvements or areas of concern
-        - Specific recommendations for optimization"""
-        
-        response = self.openai_client.chat.completions.create(
-            model="o3-mini-2025-01-31",
-            messages=[
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_prompt}
-            ],
-            temperature=0.7,
-            max_tokens=2500
-        )
-        
-        report_content = response.choices[0].message.content
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        report_with_timestamp = f"Report Generated: {timestamp}\n\n{report_content}"
-        
-        return {
-            "success": True,
-            "report": report_with_timestamp
-        }
-        
-    except Exception as e:
-        return {
-            "success": False,
-            "details": f"Error generating report: {str(e)}"
-        }
+            Please provide a detailed analysis that highlights:
+            - Overall performance trends
+            - Key metrics and their changes over time
+            - Notable improvements or areas of concern
+            - Specific recommendations for optimization"""
+            
+            response = self.openai_client.chat.completions.create(
+                model="o3-mini-2025-01-31",
+                messages=[
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": user_prompt}
+                ],
+                reasoning_effort="low",  # Options: "low", "medium", "high"
+                max_completion_tokens=3000
+            )
+            
+            report_content = response.choices[0].message.content
+            timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            report_with_timestamp = f"Report Generated: {timestamp}\n\n{report_content}"
+            
+            return {
+                "success": True,
+                "report": report_with_timestamp
+            }
+            
+        except Exception as e:
+            return {
+                "success": False,
+                "details": f"Error generating report: {str(e)}"
+            }
 
 
     def download_file(self, remote_url: str, file_name: str) -> bool:
