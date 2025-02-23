@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 from agents.small_mind import SmallMind
 from agents.Big_Mind import BigMind
 from utils.logger import PromptLogger
-from tools.visuals import process_campaign_data, plot_campaign_metrics
+from tools.visuals import process_campaign_data, plot_campaign_metrics, get_campaign_data
 
 # Load environment variables
 load_dotenv()
@@ -99,7 +99,7 @@ def main():
             # Table
             st.markdown("##### Campaign Data Overview")
             df_for_plot = process_campaign_data()
-            st.dataframe(df_for_plot)
+            st.dataframe(get_campaign_data())
 
             # Plot
             fig = plot_campaign_metrics(df_for_plot)
