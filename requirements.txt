@@ -16,3 +16,4 @@ quart
 hypercorn
 python-telegram-bot>=20.0
 pandas
+plotly

@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 from agents.small_mind import SmallMind
 from agents.Big_Mind import BigMind
 from utils.logger import PromptLogger
+from tools.visuals import process_campaign_data, plot_campaign_metrics
 
 # Load environment variables
 load_dotenv()
@@ -95,6 +96,16 @@ def main():
             st.session_state.messages.append({"role": "assistant", "content": response})
 
         if "report" in prompt.lower():
+            # Table
+            st.markdown("##### Campaign Data Overview")
+            df_for_plot = process_campaign_data()
+            st.dataframe(df_for_plot)
+
+            # Plot
+            fig = plot_campaign_metrics(df_for_plot)
+            st.plotly_chart(fig, use_container_width=True)
+
+            # 11labs call
             response_html = """
                 <elevenlabs-convai agent-id="xmdpWQMUKfeW7Ma5W87a"></elevenlabs-convai>
                 <script src="https://elevenlabs.io/convai-widget/index.js" async type="text/javascript"></script>
