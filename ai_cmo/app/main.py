@@ -94,5 +94,12 @@ def main():
             st.write(response)
             st.session_state.messages.append({"role": "assistant", "content": response})
 
+        if "report" in prompt.lower():
+            response_html = """
+                <elevenlabs-convai agent-id="xmdpWQMUKfeW7Ma5W87a"></elevenlabs-convai>
+                <script src="https://elevenlabs.io/convai-widget/index.js" async type="text/javascript"></script>
+            """
+            st.components.v1.html(response_html, height=150, scrolling=False)
+
 if __name__ == "__main__":
     main()
