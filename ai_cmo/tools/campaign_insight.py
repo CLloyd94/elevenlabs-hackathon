@@ -27,3 +27,20 @@ def get_campaign_insight(ad_account_id, access_token, start_date: str, end_date:
         return res.json()
     except Exception as e:
         print(f"Error: {e}")
+
+def process_campaign_data_to_json(data):
+    """Processes campaign data to calculate click thru rate and cost per click."""
+    if not data:
+        return "[]"
+    df = pd.DataFrame(data)
+
+    # Ensure required columns exist to prevent KeyError
+    required_cols = {'clicks', 'impressions', 'spend'}
+    if not required_cols.issubset(df.columns):
+        raise ValueError(f"Missing required columns: {required_cols - set(df.columns)}")
+
+    df = pd.DataFrame(data)
+    df['click_thru_rate'] = (df['clicks'] / df['impressions']) * 100
+    df['cost_per_click'] = df['spend'] / df['clicks']
+    res = df.to_json(orient='records')
+    return res
