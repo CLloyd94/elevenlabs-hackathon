@@ -41,8 +41,8 @@ def process_campaign_data():
             23858000000000002, 23858000000000003
         ],
         "campaign_name": [
-            "Meta Leads 01", "Lookalike Campaign 01", "Brand Awareness 01",
-            "Conversion Campaign 01", "Retargeting Campaign 01"
+            "02-20 - 02-21", "02-13 - 02-19", "02-06 - 02-12",
+            "01-30 - 02-05", "01-23 - 01-29"
         ],
         "impressions": [4702116, 1878485, 3500000, 4200000, 3100000],
         "clicks": [37832, 16340, 25000, 4000, 3000],
@@ -64,7 +64,7 @@ def plot_campaign_metrics(df):
     # plots
     fig = make_subplots(
         rows=1, cols=2,
-        subplot_titles=("Click Through Rate (%)", "CPC (Cost Per Click)")
+        subplot_titles=("Click Through Rate (%)", "Conversion Rate (%)")
     )
     fig.add_trace(
         go.Bar(
